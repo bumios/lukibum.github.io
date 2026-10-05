@@ -47,6 +47,7 @@ const ICONS = {
   "plus": "<path d='M5 12h14' /> <path d='M12 5v14' />",
   "shopping-bag": "<path d='M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z' /> <path d='M3 6h18' /> <path d='M16 10a4 4 0 0 1-8 0' />",
   "shopping-cart": "<circle cx='8' cy='21' r='1' /> <circle cx='19' cy='21' r='1' /> <path d='M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12' />",
+  "share": "<circle cx='18' cy='5' r='3' /> <circle cx='6' cy='12' r='3' /> <circle cx='18' cy='19' r='3' /> <line x1='8.59' x2='15.42' y1='13.51' y2='17.49' /> <line x1='15.41' x2='8.59' y1='6.51' y2='10.49' />",
   "sliders-horizontal": "<line x1='21' x2='14' y1='4' y2='4' /> <line x1='10' x2='3' y1='4' y2='4' /> <line x1='21' x2='12' y1='12' y2='12' /> <line x1='8' x2='3' y1='12' y2='12' /> <line x1='21' x2='16' y1='20' y2='20' /> <line x1='12' x2='3' y1='20' y2='20' /> <line x1='14' x2='14' y1='2' y2='6' /> <line x1='8' x2='8' y1='10' y2='14' /> <line x1='16' x2='16' y1='18' y2='22' />",
   "trash": "<path d='M3 6h18' /> <path d='M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6' /> <path d='M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2' /> <line x1='10' x2='10' y1='11' y2='17' /> <line x1='14' x2='14' y1='11' y2='17' />",
   "x": "<path d='M18 6 6 18' /> <path d='m6 6 12 12' />",
@@ -64,7 +65,7 @@ function fillIcons(root = document) {
 }
 
 async function initApp() {
-  APP.settings = await loadJSON("data/settings.json?v=9");
+  APP.settings = await loadJSON("data/settings.json?v=13");
   renderHeader();
   // Header (chứa #cart-count) mới vừa render xong → cập nhật số lượng giỏ hàng
   if (typeof updateCartCount === "function") updateCartCount();
@@ -181,7 +182,11 @@ function renderMessengerFab() {
   btn.className = "messenger-fab";
   btn.id = "messenger-fab";
   btn.title = "Chat với Lukibum";
-  btn.innerHTML = icon("message-circle");
+  // Icon Messenger chính chủ (simple-icons, fill-based — không dùng stroke như Lucide)
+  btn.innerHTML =
+    '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:34px;height:34px">' +
+    '<path d="M12 0C5.24 0 0 4.952 0 11.64c0 3.499 1.434 6.521 3.769 8.61a.96.96 0 0 1 .323.683l.065 2.135a.96.96 0 0 0 1.347.85l2.381-1.053a.96.96 0 0 1 .641-.046A13 13 0 0 0 12 23.28c6.76 0 12-4.952 12-11.64S18.76 0 12 0m6.806 7.44c.522-.03.971.567.63 1.094l-4.178 6.457a.707.707 0 0 1-.977.208l-3.87-2.504a.44.44 0 0 0-.49.007l-4.363 3.01c-.637.438-1.415-.317-.995-.966l4.179-6.457a.706.706 0 0 1 .977-.21l3.87 2.505c.15.097.344.094.491-.007l4.362-3.008a.7.7 0 0 1 .364-.13"/>' +
+    "</svg>";
   btn.addEventListener("click", () => {
     window.open(APP.settings.messenger, "_blank");
   });

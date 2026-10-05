@@ -359,8 +359,9 @@ function showImageModal(dataUrl) {
           <img id="image-modal-img" src="" alt="Ảnh đơn hàng">
         </div>
         <div class="image-modal-actions">
-          <a class="btn btn-primary btn-block" id="image-download" download="don-hang-lukibum.png">${icon("camera")} Tải ảnh xuống</a>
-          <p class="image-modal-hint">Trên điện thoại: <b>nấn giữ</b> vào ảnh rồi chọn "Lưu ảnh".</p>
+          <button class="btn btn-primary btn-block" id="image-share">${icon("share")} Lưu ảnh / Chia sẻ</button>
+          <a class="btn btn-ghost btn-block" id="image-download" download="don-hang-lukibum.png">${icon("camera")} Tải ảnh xuống</a>
+          <p class="image-modal-hint">Trên điện thoại: bấm <b>Lưu ảnh / Chia sẻ</b> rồi chọn "Lưu vào thư viện".<br>Hoặc <b>nấn giữ</b> vào ảnh để lưu.</p>
         </div>
       </div>`;
     document.body.appendChild(modal);
@@ -368,10 +369,32 @@ function showImageModal(dataUrl) {
       if (e.target === modal) closeImageModal();
     });
     $("#image-modal-close").addEventListener("click", closeImageModal);
+    $("#image-share").addEventListener("click", () => shareImage(dataUrl));
   }
   $("#image-modal-img").src = dataUrl;
   $("#image-download").href = dataUrl;
   modal.classList.add("open");
+}
+
+// Lưu/chia sẻ ảnh đơn hàng trên mobile qua Web Share API. Thuộc tính download
+// bị iOS Safari bỏ qua với data URL nên không dùng được để lưu ảnh trên điện thoại.
+async function shareImage(dataUrl) {
+  try {
+    const blob = await (await fetch(dataUrl)).blob();
+    const file = new File([blob], "don-hang-lukibum.png", { type: "image/png" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({ files: [file], title: "Đơn hàng Lukibum" });
+    } else {
+      const a = document.createElement("a");
+      a.href = dataUrl;
+      a.download = "don-hang-lukibum.png";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }
+  } catch (e) {
+    // Người dùng hủy chia sẻ hoặc trình duyệt không hỗ trợ — bỏ qua
+  }
 }
 
 function closeImageModal() {
