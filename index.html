@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lukibum — Phụ kiện ống UPVC nhiều màu</title>
+  <meta name="description" content="Lukibum chuyên bán phụ kiện ống UPVC nhiều màu cho người mê cá cảnh và DIY. Giá tốt, lên đơn online qua Messenger.">
+  <meta property="og:title" content="Lukibum — Phụ kiện ống UPVC nhiều màu">
+  <meta property="og:description" content="Phụ kiện ống UPVC nhiều màu cho cá cảnh & DIY. Lên đơn online qua Messenger.">
+  <meta property="og:image" content="assets/images/banner-1.svg">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <section style="padding:0">
+      <div id="carousel" class="carousel"></div>
+    </section>
+
+    <section class="container reveal">
+      <h2 class="section-title">Về <span>Lukibum</span></h2>
+      <div class="about-card">
+        <h3>Từ đam mê cá cảnh & DIY</h3>
+        <p>Chủ xị của Lukibum xuất thân từ một người làm IT bị mê cá cảnh và DIY (tại nghèo không có tiền chơi đồ hãng nên mới dính vô đồ DIY 😝). Trong quá trình tự tay làm các hệ thống nước, lọc cho mấy boss, mình tìm ra được nguồn nhập phụ kiện ống UPVC nhiều màu vừa đẹp, đa dạng chủng loại nên nhập về kiếm thêm để nuôi dưỡng đam mê, chứ nói lãi thì lãi mỗi tình cảm là chính, gặp nhiều khách khó chiều thì lỗ tình cảm luôn 😭</p>
+        <p>Lukibum chuyên cung cấp phụ kiện ống UPVC nhiều màu với giá tốt, giúp mọi người dễ dàng thực hiện dự án của riêng mình.</p>
+      </div>
+    </section>
+
+    <section class="container reveal">
+      <h2 class="section-title">Danh mục <span>sản phẩm</span></h2>
+      <div id="category-grid" class="category-grid"></div>
+    </section>
+
+    <section class="container reveal">
+      <h2 class="section-title">Sản phẩm <span>nổi bật</span></h2>
+      <div id="featured-grid" class="product-grid"></div>
+      <div class="center" style="margin-top:20px">
+        <a class="btn btn-primary" href="san-pham.html">Xem tất cả sản phẩm <span data-icon="arrow-right"></span></a>
+      </div>
+    </section>
+
+    <!-- Ưu đãi cộng đồng -->
+    <section class="container reveal">
+      <h2 class="section-title">Ưu đãi <span>cộng đồng</span></h2>
+      <p class="section-sub">Thành viên nhóm Zalo Lukibum được hưởng các quyền lợi riêng khi lên đơn.</p>
+      <div class="deals-grid" id="deals-grid"></div>
+    </section>
+
+    <section class="container reveal">
+      <h2 class="section-title">Cộng đồng <span>Zalo</span> của Lukibum</h2>
+      <div class="zalo-card">
+        <img id="zalo-qr" src="assets/images/zalo-qr.svg" alt="QR Zalo Lukibum">
+        <div>
+          <h3>Quét mã để tham gia</h3>
+          <p>Cập nhật hàng mới, dự án DIY và ưu đãi riêng dành cho cộng đồng của Lukibum.</p>
+          <a class="btn btn-primary" href="huong-dan-mua-hang.html">Xem hướng dẫn mua hàng</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/products.js"></script>
+  <script>
+    initApp().then(() => renderHome());
+  </script>
+</body>
+</html>

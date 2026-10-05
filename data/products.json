@@ -1,0 +1,2657 @@
+{
+  "categories": [
+    {
+      "id": "ong-nuoc",
+      "name": "Ống nước",
+      "icon": "cable"
+    },
+    {
+      "id": "noi-truc-tiep",
+      "name": "Phụ kiện nối trực tiếp",
+      "icon": "git-merge"
+    },
+    {
+      "id": "van-khoa",
+      "name": "Van khóa",
+      "icon": "sliders-horizontal"
+    },
+    {
+      "id": "noi-ren",
+      "name": "Phụ kiện nối ren",
+      "icon": "link"
+    },
+    {
+      "id": "ho-tro",
+      "name": "Phụ kiện hỗ trợ khác",
+      "icon": "package"
+    }
+  ],
+  "products": [
+    {
+      "id": "55352697878",
+      "name": "Hộp đựng vật liệu lọc nguyên khối nhựa ABS cao cấp",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mhxfqz02l6vae4",
+      "variations": [
+        {
+          "name": "Đen nắp đỏ",
+          "sku": "HopDungVLLNguyenKhoi-X-DenNapDo",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mhxfqz02l6vae4",
+          "stock": 0,
+          "customerPrice": 41000
+        },
+        {
+          "name": "Đỏ nắp đen",
+          "sku": "HopDungVLLNguyenKhoi-X-DoNapDen",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mhxfqxi4g1kw50",
+          "stock": 41,
+          "customerPrice": 41000
+        }
+      ]
+    },
+    {
+      "id": "49517424314",
+      "name": "Khoáng vi lượng Fishton - Cung cấp khoáng chất, tăng đề kháng cho cá, tép cảnh (200gr)",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-msqwu6vtjpc15f",
+      "variations": [
+        {
+          "name": "Mặc định",
+          "sku": "49517424314",
+          "price": 77361,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-msqwu6vtjpc15f",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "48953070519",
+      "name": "Tấm kê đáy lọc bể cá, lót bể rùa",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134275-822ww-mi7g8h02m0w1b4",
+      "variations": [
+        {
+          "name": "Đen (tặng kèm 4 nút)",
+          "sku": "TamKeDayVLL-X-Den",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/sg-11134275-822ww-mi7g8h02m0w1b4",
+          "stock": 109,
+          "customerPrice": 22000
+        },
+        {
+          "name": "Đỏ (tặng kèm 4 nút)",
+          "sku": "TamKeDayVLL-X-Do",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/sg-11134275-822zi-mi7g8h1qnuh3ac",
+          "stock": 24,
+          "customerPrice": 22000
+        }
+      ]
+    },
+    {
+      "id": "47808032751",
+      "name": "Nấm xả đáy co 90 độ đầu dẹp phi 20, 25, 32 - Màu trắng, đen",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134275-82606-mmho3fz4fz7ocf",
+      "variations": [
+        {
+          "name": "Trắng, 32",
+          "sku": "NamXaDayKhuyuTayDauDep-32-Trang",
+          "price": 69028,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82606-mmho3fz4fz7ocf",
+          "stock": 10,
+          "customerPrice": 44000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NamXaDayKhuyuTayDauDep-20-Den",
+          "price": 41250,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82608-mmho3fhzu2o27d",
+          "stock": 10,
+          "customerPrice": 24000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "NamXaDayKhuyuTayDauDep-25-Den",
+          "price": 57917,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82608-mmho3fhzu2o27d",
+          "stock": 20,
+          "customerPrice": 36000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "NamXaDayKhuyuTayDauDep-32-Den",
+          "price": 69028,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82608-mmho3fhzu2o27d",
+          "stock": 10,
+          "customerPrice": 44000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NamXaDayKhuyuTayDauDep-20-Trang",
+          "price": 44028,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82606-mmho3fz4fz7ocf",
+          "stock": 10,
+          "customerPrice": 26000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NamXaDayKhuyuTayDauDep-25-Trang",
+          "price": 57917,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82606-mmho3fz4fz7ocf",
+          "stock": 20,
+          "customerPrice": 36000
+        }
+      ]
+    },
+    {
+      "id": "45102713550",
+      "name": "Mỏ vịt xoay 360 độ phi 20x16, 25x20",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mhxgof2qlo8ya3",
+      "variations": [
+        {
+          "name": "Đen, 25x20",
+          "sku": "MoVitXoay360Do-25x20-Den",
+          "price": 35694,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mhxgof2qlo8ya3",
+          "stock": 25,
+          "customerPrice": 20000
+        },
+        {
+          "name": "Đen, 20x16",
+          "sku": "MoVitXoay360Do-20x16-Den",
+          "price": 35694,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mhxgof2qlo8ya3",
+          "stock": 26,
+          "customerPrice": 20000
+        }
+      ]
+    },
+    {
+      "id": "44803059688",
+      "name": "Đầu lọc váng xoay Acrylic, xử lý váng dầu mặt bể cá, khuấy động mặt nước tạo thêm oxy",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134275-822xs-mi7g8h0wxg5g6a",
+      "variations": [
+        {
+          "name": "16",
+          "sku": "DauLocVangXoayAcrylic-16-TrongSuot",
+          "price": 41250,
+          "image": "https://cf.shopee.vn/file/sg-11134275-822xs-mi7g8h0wxg5g6a",
+          "stock": 15,
+          "customerPrice": 24000
+        }
+      ]
+    },
+    {
+      "id": "44404305812",
+      "name": "Đầu thu, đầu chuyển phi ống phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymqxivk8oy3d",
+      "variations": [
+        {
+          "name": "Đen, 32*25",
+          "sku": "DauThu-32x25-Den",
+          "price": 24583,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymqxivk8oy3d",
+          "stock": 22,
+          "customerPrice": 12000
+        },
+        {
+          "name": "Trắng, 25*20",
+          "sku": "DauThu-25x20-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkkzfxmfs93",
+          "stock": 22,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Trắng, 32*20",
+          "sku": "DauThu-32x20-Trang",
+          "price": 17639,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkkzfxmfs93",
+          "stock": 25,
+          "customerPrice": 7000
+        },
+        {
+          "name": "Trắng, 32*25",
+          "sku": "DauThu-32x25-Trang",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkkzfxmfs93",
+          "stock": 21,
+          "customerPrice": 8000
+        },
+        {
+          "name": "Đen, 25*20",
+          "sku": "DauThu-25x20-Den",
+          "price": 20417,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymqxivk8oy3d",
+          "stock": 23,
+          "customerPrice": 9000
+        },
+        {
+          "name": "Đen, 32*20",
+          "sku": "DauThu-32x20-Den",
+          "price": 23194,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymqxivk8oy3d",
+          "stock": 21,
+          "customerPrice": 11000
+        }
+      ]
+    },
+    {
+      "id": "44404305807",
+      "name": "Nấm thổi đáy bể cá phi 20, 25, 32 - Màu đen, trắng",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mdvr0i4np43p0f",
+      "variations": [
+        {
+          "name": "Đen, 32",
+          "sku": "NamThoiDay-32-Den",
+          "price": 69028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mdvr0i4np43p0f",
+          "stock": 20,
+          "customerPrice": 44000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NamThoiDay-20-Trang",
+          "price": 46806,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpklvmmiu0af",
+          "stock": 15,
+          "customerPrice": 28000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NamThoiDay-25-Trang",
+          "price": 63472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpklvmmiu0af",
+          "stock": 20,
+          "customerPrice": 40000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NamThoiDay-32-Trang",
+          "price": 69028,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpklvmmiu0af",
+          "stock": 20,
+          "customerPrice": 44000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NamThoiDay-20-Den",
+          "price": 46806,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mdvr0i4np43p0f",
+          "stock": 8,
+          "customerPrice": 28000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "NamThoiDay-25-Den",
+          "price": 63472,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mdvr0i4np43p0f",
+          "stock": 38,
+          "customerPrice": 40000
+        }
+      ]
+    },
+    {
+      "id": "43813607199",
+      "name": "Vi sinh xử lý nước Fishton gốc Seachem chai 500ml - Vi sinh chuyên dụng cho bể cá, thuỷ sinh, làm trong nước",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-mdho8j9qdmsx4e",
+      "variations": [
+        {
+          "name": "Mặc định",
+          "sku": "43813607199",
+          "price": 48200,
+          "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-mdho8j9qdmsx4e",
+          "stock": 0
+        }
+      ]
+    },
+    {
+      "id": "43804305958",
+      "name": "Chuyển ống mềm nối trực tiếp phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134201-821fa-mgtjkcgx4lqk33",
+      "variations": [
+        {
+          "name": "Đen, 25x10",
+          "sku": "ChuyenOngMem-25x10-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fa-mgtjkcgx4lqk33",
+          "stock": 0
+        },
+        {
+          "name": "Đen, 25x12",
+          "sku": "ChuyenOngMem-25x12-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fa-mgtjkcgx4lqk33",
+          "stock": 0
+        },
+        {
+          "name": "Đen, 25x16",
+          "sku": "ChuyenOngMem-25x16-Den",
+          "price": 24583,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fa-mgtjkcgx4lqk33",
+          "stock": 15,
+          "customerPrice": 12000
+        },
+        {
+          "name": "Đen, 20x8",
+          "sku": "ChuyenOngMem-20x8-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fa-mgtjkcgx4lqk33",
+          "stock": 0
+        },
+        {
+          "name": "Đen, 20x12",
+          "sku": "ChuyenOngMem-20x12-Den",
+          "price": 14861,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fa-mgtjkcgx4lqk33",
+          "stock": 0
+        },
+        {
+          "name": "Trắng, 25x16",
+          "sku": "ChuyenOngMem-25x16-Trang",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl2ru3rg09",
+          "stock": 2,
+          "customerPrice": 8000
+        },
+        {
+          "name": "Trắng, 20x12",
+          "sku": "ChuyenOngMem-20x12-Trang",
+          "price": 14861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl2ru3rg09",
+          "stock": 0,
+          "customerPrice": 5000
+        },
+        {
+          "name": "Đen, 20x10",
+          "sku": "ChuyenOngMem-20x10-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fa-mgtjkcgx4lqk33",
+          "stock": 0
+        },
+        {
+          "name": "Đen, 32x16",
+          "sku": "ChuyenOngMem-32x16-Den",
+          "price": 32917,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fa-mgtjkcgx4lqk33",
+          "stock": 15,
+          "customerPrice": 18000
+        },
+        {
+          "name": "Trắng, 25x12",
+          "sku": "ChuyenOngMem-25x12-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl2ru3rg09",
+          "stock": 3,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Trắng, 20x10",
+          "sku": "ChuyenOngMem-20x10-Trang",
+          "price": 14861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl2ru3rg09",
+          "stock": 0,
+          "customerPrice": 5000
+        },
+        {
+          "name": "Trắng, 25x10",
+          "sku": "ChuyenOngMem-25x10-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl2ru3rg09",
+          "stock": 5,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Trắng, 20x8",
+          "sku": "ChuyenOngMem-20x8-Trang",
+          "price": 14861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl2ru3rg09",
+          "stock": 16,
+          "customerPrice": 5000
+        },
+        {
+          "name": "Trắng, 32x16",
+          "sku": "ChuyenOngMem-32x16-Trang",
+          "price": 21806,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl2ru3rg09",
+          "stock": 16,
+          "customerPrice": 10000
+        }
+      ]
+    },
+    {
+      "id": "43704296035",
+      "name": "Nấm xả đáy co 90 độ phi 20, 25, 32 - Màu trắng, đen",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkm8449205e",
+      "variations": [
+        {
+          "name": "Đen, 32",
+          "sku": "NamXaDay90-32-Den",
+          "price": 56528,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkm8449205e",
+          "stock": 4,
+          "customerPrice": 35000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NamXaDay90-20-Trang",
+          "price": 39861,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymjj7w6aroa0",
+          "stock": 8,
+          "customerPrice": 23000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NamXaDay90-25-Trang",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymjj7w6aroa0",
+          "stock": 16,
+          "customerPrice": 29000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NamXaDay90-32-Trang",
+          "price": 56528,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymjj7w6aroa0",
+          "stock": 8,
+          "customerPrice": 35000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NamXaDay90-20-Den",
+          "price": 37083,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkm8449205e",
+          "stock": 4,
+          "customerPrice": 21000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "NamXaDay90-25-Den",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkm8449205e",
+          "stock": 4,
+          "customerPrice": 29000
+        }
+      ]
+    },
+    {
+      "id": "43604300964",
+      "name": "Đầu nối ren trong ngoài co 90 độ phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-ren",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl9zi55812",
+      "variations": [
+        {
+          "name": "Đen, 25",
+          "sku": "NoiRenTNCo90Do-25-Den",
+          "price": 57917,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl9zi55812",
+          "stock": 39,
+          "customerPrice": 36000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "NoiRenTNCo90Do-32-Den",
+          "price": 69028,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl9zi55812",
+          "stock": 4,
+          "customerPrice": 44000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NoiRenTNCo90Do-20-Trang",
+          "price": 41250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylmnxha77rca",
+          "stock": 29,
+          "customerPrice": 26000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NoiRenTNCo90Do-25-Trang",
+          "price": 57917,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylmnxha77rca",
+          "stock": 26,
+          "customerPrice": 36000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NoiRenTNCo90Do-32-Trang",
+          "price": 69028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylmnxha77rca",
+          "stock": 21,
+          "customerPrice": 44000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NoiRenTNCo90Do-20-Den",
+          "price": 41250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl9zi55812",
+          "stock": 20,
+          "customerPrice": 24000
+        }
+      ]
+    },
+    {
+      "id": "43604300963",
+      "name": "Đầu nối ren trong ngoài thẳng phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-ren",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylcrvgy9dy67",
+      "variations": [
+        {
+          "name": "Trắng, 25",
+          "sku": "NoiRenTNThang-25-Trang",
+          "price": 55139,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylcrvgy9dy67",
+          "stock": 37,
+          "customerPrice": 34000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NoiRenTNThang-32-Trang",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylcrvgy9dy67",
+          "stock": 16,
+          "customerPrice": 41000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "NoiRenTNThang-32-Den",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpklfja2fr0f",
+          "stock": 18,
+          "customerPrice": 41000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NoiRenTNThang-20-Den",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpklfja2fr0f",
+          "stock": 23,
+          "customerPrice": 22000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "NoiRenTNThang-25-Den",
+          "price": 55139,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpklfja2fr0f",
+          "stock": 29,
+          "customerPrice": 34000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NoiRenTNThang-20-Trang",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylcrvgy9dy67",
+          "stock": 17,
+          "customerPrice": 22000
+        }
+      ]
+    },
+    {
+      "id": "43604300956",
+      "name": "Nấm xả đáy thẳng phi 20, 25, 32 - Màu trắng, đen",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl95jczw27",
+      "variations": [
+        {
+          "name": "Đen, 20",
+          "sku": "NamXaDayThang-20-Den",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl95jczw27",
+          "stock": 8,
+          "customerPrice": 22000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "NamXaDayThang-25-Den",
+          "price": 52361,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl95jczw27",
+          "stock": 17,
+          "customerPrice": 32000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "NamXaDayThang-32-Den",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkl95jczw27",
+          "stock": 16,
+          "customerPrice": 41000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NamXaDayThang-20-Trang",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqym49onudqe36",
+          "stock": 10,
+          "customerPrice": 22000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NamXaDayThang-25-Trang",
+          "price": 52361,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqym49onudqe36",
+          "stock": 31,
+          "customerPrice": 32000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NamXaDayThang-32-Trang",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqym49onudqe36",
+          "stock": 8,
+          "customerPrice": 41000
+        }
+      ]
+    },
+    {
+      "id": "43504295925",
+      "name": "Rắc co phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk11bwzlf7",
+      "variations": [
+        {
+          "name": "Trắng, 32",
+          "sku": "RacCo-32-Trang",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk11bwzlf7",
+          "stock": 11,
+          "customerPrice": 22000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "RacCo-20-Den",
+          "price": 27361,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykqv91ze9x39",
+          "stock": 19,
+          "customerPrice": 14000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "RacCo-25-Den",
+          "price": 32917,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykqv91ze9x39",
+          "stock": 26,
+          "customerPrice": 18000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "RacCo-32-Den",
+          "price": 41250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykqv91ze9x39",
+          "stock": 17,
+          "customerPrice": 24000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "RacCo-20-Trang",
+          "price": 23194,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk11bwzlf7",
+          "stock": 27,
+          "customerPrice": 11000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "RacCo-25-Trang",
+          "price": 27361,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk11bwzlf7",
+          "stock": 28,
+          "customerPrice": 14000
+        }
+      ]
+    },
+    {
+      "id": "43504286229",
+      "name": "Ống nước UPVC nhiều màu cho bể cá phi 20/25/32 (50cm / 1 mét) - Tô Điểm Bể Cá Nhà Bạn",
+      "category": "ong-nuoc",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134201-821er-mgtjkaw9cxzha5",
+      "variations": [
+        {
+          "name": "Vàng, 25 (1m)",
+          "sku": "OngNuoc-25-Vang-1m",
+          "price": 71806,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821er-mgtjkaw9cxzha5",
+          "stock": 4,
+          "customerPrice": 55000
+        },
+        {
+          "name": "Vàng, 20 (50cm)",
+          "sku": "OngNuoc-20-Vang-50cm",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821er-mgtjkaw9cxzha5",
+          "stock": 4
+        },
+        {
+          "name": "Hồng, 32 (50cm)",
+          "sku": "OngNuoc-32-Hong-50cm",
+          "price": 62778,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821g7-mgtjkaw17dam2f",
+          "stock": 19
+        },
+        {
+          "name": "Xanh lá, 20 (50cm)",
+          "sku": "OngNuoc-20-XanhLa-50cm",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821gf-mgtjkb1se4un85",
+          "stock": 1
+        },
+        {
+          "name": "Cam, 20 (1m)",
+          "sku": "OngNuoc-20-Cam-1m",
+          "price": 52361,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821em-mgtjkb1uw16z6e",
+          "stock": 5,
+          "customerPrice": 42000
+        },
+        {
+          "name": "Vàng, 32 (50cm)",
+          "sku": "OngNuoc-32-Vang-50cm",
+          "price": 62778,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821er-mgtjkaw9cxzha5",
+          "stock": 2
+        },
+        {
+          "name": "Trắng, 20 (1m)",
+          "sku": "OngNuoc-20-Trang-1m",
+          "price": 42639,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk8gdpjnbr06",
+          "stock": 3,
+          "customerPrice": 28000
+        },
+        {
+          "name": "Hồng, 20 (50cm)",
+          "sku": "OngNuoc-20-Hong-50cm",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821g7-mgtjkaw17dam2f",
+          "stock": 9
+        },
+        {
+          "name": "Xanh dương, 32 (1m)",
+          "sku": "OngNuoc-32-XanhDuong-1m",
+          "price": 62083,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk55ddp7640b",
+          "stock": 5,
+          "customerPrice": 45000
+        },
+        {
+          "name": "Đỏ, 32 (50cm)",
+          "sku": "OngNuoc-32-Do-50cm",
+          "price": 57917,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821dr-mgtjkavp9jil9a",
+          "stock": 13
+        },
+        {
+          "name": "Đỏ, 20 (50cm)",
+          "sku": "OngNuoc-20-Do-50cm",
+          "price": 44028,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821dr-mgtjkavp9jil9a",
+          "stock": 18
+        },
+        {
+          "name": "Xanh ngọc lam, 20 (1m)",
+          "sku": "OngNuoc-20-XanhNgocLam-1m",
+          "price": 60694,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtjyazm6hhl69",
+          "stock": 10,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Cam, 25 (50cm)",
+          "sku": "OngNuoc-25-Cam-50cm",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821em-mgtjkb1uw16z6e",
+          "stock": 20
+        },
+        {
+          "name": "Trắng, 25 (1m)",
+          "sku": "OngNuoc-25-Trang-1m",
+          "price": 49583,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk8gdpjnbr06",
+          "stock": 3,
+          "customerPrice": 38000
+        },
+        {
+          "name": "Xanh lá, 32 (50cm)",
+          "sku": "OngNuoc-32-XanhLa-50cm",
+          "price": 62778,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821gf-mgtjkb1se4un85",
+          "stock": 3
+        },
+        {
+          "name": "Hồng, 32 (1m)",
+          "sku": "OngNuoc-32-Hong-1m",
+          "price": 89861,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821g7-mgtjkaw17dam2f",
+          "stock": 9,
+          "customerPrice": 66000
+        },
+        {
+          "name": "Cam, 20 (50cm)",
+          "sku": "OngNuoc-20-Cam-50cm",
+          "price": 44028,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821em-mgtjkb1uw16z6e",
+          "stock": 10
+        },
+        {
+          "name": "Xanh ngọc lam, 32 (1m)",
+          "sku": "OngNuoc-32-XanhNgocLam-1m",
+          "price": 89861,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtjyazm6hhl69",
+          "stock": 20,
+          "customerPrice": 66000
+        },
+        {
+          "name": "Xanh dương, 32 (50cm)",
+          "sku": "OngNuoc-32-XanhDuong-50cm",
+          "price": 48889,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk55ddp7640b",
+          "stock": 10
+        },
+        {
+          "name": "Xanh lá, 20 (1m)",
+          "sku": "OngNuoc-20-XanhLa-1m",
+          "price": 60694,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821gf-mgtjkb1se4un85",
+          "stock": 0,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Đen, 25 (50cm)",
+          "sku": "OngNuoc-25-Den-50cm",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fh-mgtjkb1cv4eh30",
+          "stock": 41
+        },
+        {
+          "name": "Xanh dương, 25 (1m)",
+          "sku": "OngNuoc-25-XanhDuong-1m",
+          "price": 49583,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk55ddp7640b",
+          "stock": 14,
+          "customerPrice": 38000
+        },
+        {
+          "name": "Trắng, 32 (1m)",
+          "sku": "OngNuoc-32-Trang-1m",
+          "price": 62083,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk8gdpjnbr06",
+          "stock": 2,
+          "customerPrice": 45000
+        },
+        {
+          "name": "Cam, 32 (50cm)",
+          "sku": "OngNuoc-32-Cam-50cm",
+          "price": 57917,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821em-mgtjkb1uw16z6e",
+          "stock": 8
+        },
+        {
+          "name": "Xanh ngọc lam, 25 (50cm)",
+          "sku": "OngNuoc-25-XanhNgocLam-50cm",
+          "price": 53750,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtjyazm6hhl69",
+          "stock": 30
+        },
+        {
+          "name": "Đen, 20 (1m)",
+          "sku": "OngNuoc-20-Den-1m",
+          "price": 52361,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fh-mgtjkb1cv4eh30",
+          "stock": 13,
+          "customerPrice": 42000
+        },
+        {
+          "name": "Xanh lá, 32 (1m)",
+          "sku": "OngNuoc-32-XanhLa-1m",
+          "price": 89861,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821gf-mgtjkb1se4un85",
+          "stock": 1,
+          "customerPrice": 66000
+        },
+        {
+          "name": "Xanh dương, 25 (50cm)",
+          "sku": "OngNuoc-25-XanhDuong-50cm",
+          "price": 42639,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk55ddp7640b",
+          "stock": 28
+        },
+        {
+          "name": "Trắng, 32 (50cm)",
+          "sku": "OngNuoc-32-Trang-50cm",
+          "price": 48889,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk8gdpjnbr06",
+          "stock": 4
+        },
+        {
+          "name": "Đen, 20 (50cm)",
+          "sku": "OngNuoc-20-Den-50cm",
+          "price": 44028,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fh-mgtjkb1cv4eh30",
+          "stock": 26
+        },
+        {
+          "name": "Hồng, 25 (1m)",
+          "sku": "OngNuoc-25-Hong-1m",
+          "price": 71806,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821g7-mgtjkaw17dam2f",
+          "stock": 3,
+          "customerPrice": 55000
+        },
+        {
+          "name": "Cam, 32 (1m)",
+          "sku": "OngNuoc-32-Cam-1m",
+          "price": 80139,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821em-mgtjkb1uw16z6e",
+          "stock": 4,
+          "customerPrice": 59000
+        },
+        {
+          "name": "Đỏ, 25 (50cm)",
+          "sku": "OngNuoc-25-Do-50cm",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821dr-mgtjkavp9jil9a",
+          "stock": 63
+        },
+        {
+          "name": "Xanh dương, 20 (50cm)",
+          "sku": "OngNuoc-20-XanhDuong-50cm",
+          "price": 39167,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk55ddp7640b",
+          "stock": 5
+        },
+        {
+          "name": "Xanh dương, 20 (1m)",
+          "sku": "OngNuoc-20-XanhDuong-1m",
+          "price": 42639,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk55ddp7640b",
+          "stock": 2,
+          "customerPrice": 28000
+        },
+        {
+          "name": "Vàng, 32 (1m)",
+          "sku": "OngNuoc-32-Vang-1m",
+          "price": 89861,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821er-mgtjkaw9cxzha5",
+          "stock": 1,
+          "customerPrice": 66000
+        },
+        {
+          "name": "Hồng, 20 (1m)",
+          "sku": "OngNuoc-20-Hong-1m",
+          "price": 60694,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821g7-mgtjkaw17dam2f",
+          "stock": 4,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Vàng, 20 (1m)",
+          "sku": "OngNuoc-20-Vang-1m",
+          "price": 60694,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821er-mgtjkaw9cxzha5",
+          "stock": 2,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Trắng, 25 (50cm)",
+          "sku": "OngNuoc-25-Trang-50cm",
+          "price": 42639,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk8gdpjnbr06",
+          "stock": 7
+        },
+        {
+          "name": "Xanh ngọc lam, 25 (1m)",
+          "sku": "OngNuoc-25-XanhNgocLam-1m",
+          "price": 71806,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtjyazm6hhl69",
+          "stock": 14,
+          "customerPrice": 55000
+        },
+        {
+          "name": "Đen, 32 (50cm)",
+          "sku": "OngNuoc-32-Den-50cm",
+          "price": 57917,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fh-mgtjkb1cv4eh30",
+          "stock": 5
+        },
+        {
+          "name": "Trắng, 20 (50cm)",
+          "sku": "OngNuoc-20-Trang-50cm",
+          "price": 39167,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawk8gdpjnbr06",
+          "stock": 7
+        },
+        {
+          "name": "Đỏ, 32 (1m)",
+          "sku": "OngNuoc-32-Do-1m",
+          "price": 80139,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821dr-mgtjkavp9jil9a",
+          "stock": 7,
+          "customerPrice": 59000
+        },
+        {
+          "name": "Xanh lá, 25 (1m)",
+          "sku": "OngNuoc-25-XanhLa-1m",
+          "price": 71806,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821gf-mgtjkb1se4un85",
+          "stock": 0,
+          "customerPrice": 55000
+        },
+        {
+          "name": "Vàng, 25 (50cm)",
+          "sku": "OngNuoc-25-Vang-50cm",
+          "price": 53750,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821er-mgtjkaw9cxzha5",
+          "stock": 8
+        },
+        {
+          "name": "Xanh lá, 25 (50cm)",
+          "sku": "OngNuoc-25-XanhLa-50cm",
+          "price": 53750,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821gf-mgtjkb1se4un85",
+          "stock": 1
+        },
+        {
+          "name": "Xanh ngọc lam, 20 (50cm)",
+          "sku": "OngNuoc-20-XanhNgocLam-50cm",
+          "price": 48194,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtjyazm6hhl69",
+          "stock": 20
+        },
+        {
+          "name": "Xanh ngọc lam, 32 (50cm)",
+          "sku": "OngNuoc-32-XanhNgocLam-50cm",
+          "price": 62778,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtjyazm6hhl69",
+          "stock": 40
+        },
+        {
+          "name": "Đỏ, 20 (1m)",
+          "sku": "OngNuoc-20-Do-1m",
+          "price": 52361,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821dr-mgtjkavp9jil9a",
+          "stock": 9,
+          "customerPrice": 42000
+        },
+        {
+          "name": "Đỏ, 25 (1m)",
+          "sku": "OngNuoc-25-Do-1m",
+          "price": 60694,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821dr-mgtjkavp9jil9a",
+          "stock": 30,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Cam, 25 (1m)",
+          "sku": "OngNuoc-25-Cam-1m",
+          "price": 60694,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821em-mgtjkb1uw16z6e",
+          "stock": 10,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Đen, 25 (1m)",
+          "sku": "OngNuoc-25-Den-1m",
+          "price": 60694,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fh-mgtjkb1cv4eh30",
+          "stock": 20,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Đen, 32 (1m)",
+          "sku": "OngNuoc-32-Den-1m",
+          "price": 80139,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821fh-mgtjkb1cv4eh30",
+          "stock": 2,
+          "customerPrice": 59000
+        },
+        {
+          "name": "Hồng, 25 (50cm)",
+          "sku": "OngNuoc-25-Hong-50cm",
+          "price": 53750,
+          "image": "https://cf.shopee.vn/file/sg-11134201-821g7-mgtjkaw17dam2f",
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "id": "43429665986",
+      "name": "Nấm xả đáy thẳng đầu dẹp phi 20, 25, 32 - Màu trắng, đen",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134275-8260m-mmho3g6wzk013b",
+      "variations": [
+        {
+          "name": "Đen, 25",
+          "sku": "NamXaDayThangDauDep-25-Den",
+          "price": 55139,
+          "image": "https://cf.shopee.vn/file/sg-11134275-8260m-mmho3g6wzk013b",
+          "stock": 20,
+          "customerPrice": 34000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "NamXaDayThangDauDep-32-Den",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/sg-11134275-8260m-mmho3g6wzk013b",
+          "stock": 9,
+          "customerPrice": 41000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NamXaDayThangDauDep-20-Trang",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82622-mmho3flc6233fc",
+          "stock": 10,
+          "customerPrice": 22000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NamXaDayThangDauDep-25-Trang",
+          "price": 55139,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82622-mmho3flc6233fc",
+          "stock": 20,
+          "customerPrice": 34000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NamXaDayThangDauDep-32-Trang",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82622-mmho3flc6233fc",
+          "stock": 10,
+          "customerPrice": 41000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NamXaDayThangDauDep-20-Den",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/sg-11134275-8260m-mmho3g6wzk013b",
+          "stock": 10,
+          "customerPrice": 22000
+        }
+      ]
+    },
+    {
+      "id": "43429665985",
+      "name": "Cút chữ Y phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134275-8262q-mmho3fdvpywzc3",
+      "variations": [
+        {
+          "name": "Trắng, 25",
+          "sku": "CusChuY-25-Trang",
+          "price": 21806,
+          "image": "https://cf.shopee.vn/file/sg-11134275-8262q-mmho3fdvpywzc3",
+          "stock": 13,
+          "customerPrice": 10000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "CusChuY-32-Trang",
+          "price": 30139,
+          "image": "https://cf.shopee.vn/file/sg-11134275-8262q-mmho3fdvpywzc3",
+          "stock": 9,
+          "customerPrice": 16000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "CusChuY-20-Den",
+          "price": 23194,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82608-mmho3fh7xs7618",
+          "stock": 8,
+          "customerPrice": 11000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "CusChuY-25-Den",
+          "price": 27361,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82608-mmho3fh7xs7618",
+          "stock": 9,
+          "customerPrice": 14000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "CusChuY-32-Den",
+          "price": 38472,
+          "image": "https://cf.shopee.vn/file/sg-11134275-82608-mmho3fh7xs7618",
+          "stock": 7,
+          "customerPrice": 22000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "CusChuY-20-Trang",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/sg-11134275-8262q-mmho3fdvpywzc3",
+          "stock": 10,
+          "customerPrice": 8000
+        }
+      ]
+    },
+    {
+      "id": "43404296085",
+      "name": "Lơi, cút chếch 45 độ phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj72jtnc0f",
+      "variations": [
+        {
+          "name": "Trắng, 25",
+          "sku": "Loi45Do-25-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj72jtnc0f",
+          "stock": 55,
+          "customerPrice": 4000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "Loi45Do-32-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj72jtnc0f",
+          "stock": 31,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "Loi45Do-20-Den",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymtfu2y875de",
+          "stock": 48,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "Loi45Do-25-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymtfu2y875de",
+          "stock": 36,
+          "customerPrice": 8000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "Loi45Do-32-Den",
+          "price": 24583,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymtfu2y875de",
+          "stock": 2,
+          "customerPrice": 12000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "Loi45Do-20-Trang",
+          "price": 12083,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj72jtnc0f",
+          "stock": 52,
+          "customerPrice": 3000
+        }
+      ]
+    },
+    {
+      "id": "43404296024",
+      "name": "Côn thu phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk2p9j2vae",
+      "variations": [
+        {
+          "name": "Trắng, 32*25",
+          "sku": "ConThu-32x25-Trang",
+          "price": 14861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk2p9j2vae",
+          "stock": 32,
+          "customerPrice": 5000
+        },
+        {
+          "name": "Trắng, 25*20",
+          "sku": "ConThu-25x20-Trang",
+          "price": 12083,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk2p9j2vae",
+          "stock": 38,
+          "customerPrice": 3000
+        },
+        {
+          "name": "Đen, 25*20",
+          "sku": "ConThu-25x20-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykiv4feubmc3",
+          "stock": 11,
+          "customerPrice": 8000
+        },
+        {
+          "name": "Đen, 32*20",
+          "sku": "ConThu-32x20-Den",
+          "price": 20417,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykiv4feubmc3",
+          "stock": 15,
+          "customerPrice": 9000
+        },
+        {
+          "name": "Đen, 32*25",
+          "sku": "ConThu-32x25-Den",
+          "price": 21806,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykiv4feubmc3",
+          "stock": 15,
+          "customerPrice": 10000
+        },
+        {
+          "name": "Trắng, 32*20",
+          "sku": "ConThu-32x20-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk2p9j2vae",
+          "stock": 27,
+          "customerPrice": 4000
+        }
+      ]
+    },
+    {
+      "id": "43404296023",
+      "name": "Nút bịt phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqym8j4p7t3841",
+      "variations": [
+        {
+          "name": "Đen, 32",
+          "sku": "NutBit-32-Den",
+          "price": 21806,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqym8j4p7t3841",
+          "stock": 17,
+          "customerPrice": 10000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NutBit-32-Trang",
+          "price": 14861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk1bbkd46b",
+          "stock": 36,
+          "customerPrice": 5000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NutBit-20-Trang",
+          "price": 12083,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk1bbkd46b",
+          "stock": 41,
+          "customerPrice": 3000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NutBit-25-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk1bbkd46b",
+          "stock": 39,
+          "customerPrice": 4000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NutBit-20-Den",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqym8j4p7t3841",
+          "stock": 53,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "NutBit-25-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqym8j4p7t3841",
+          "stock": 40,
+          "customerPrice": 8000
+        }
+      ]
+    },
+    {
+      "id": "43205478895",
+      "name": "Van khóa rắc co đôi phi 20, 25, 32 - Màu trắng, xám đậm",
+      "category": "van-khoa",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaqbcmu27ywee",
+      "variations": [
+        {
+          "name": "Xám đậm, 25",
+          "sku": "VanRacCoDoi-25-XamDam",
+          "price": 100972,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaqbcmu27ywee",
+          "stock": 1,
+          "customerPrice": 67000
+        },
+        {
+          "name": "Xám đậm, 32",
+          "sku": "VanRacCoDoi-32-XamDam",
+          "price": 134306,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaqbcmu27ywee",
+          "stock": 10,
+          "customerPrice": 91000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "VanRacCoDoi-20-Trang",
+          "price": 66250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaqbcm03e0jee",
+          "stock": 15,
+          "customerPrice": 42000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "VanRacCoDoi-25-Trang",
+          "price": 77361,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaqbcm03e0jee",
+          "stock": 10,
+          "customerPrice": 50000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "VanRacCoDoi-32-Trang",
+          "price": 96806,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaqbcm03e0jee",
+          "stock": 10,
+          "customerPrice": 64000
+        },
+        {
+          "name": "Xám đậm, 20",
+          "sku": "VanRacCoDoi-20-XamDam",
+          "price": 82917,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaqbcmu27ywee",
+          "stock": 5,
+          "customerPrice": 54000
+        }
+      ]
+    },
+    {
+      "id": "43204300979",
+      "name": "Van khóa tròn phi 20, 25, 32 - Màu trắng, đen",
+      "category": "van-khoa",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqyn40me77k157",
+      "variations": [
+        {
+          "name": "Đen, 25",
+          "sku": "VanTron-25-Den",
+          "price": 46806,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqyn40me77k157",
+          "stock": 19,
+          "customerPrice": 28000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "VanTron-32-Den",
+          "price": 66250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqyn40me77k157",
+          "stock": 9,
+          "customerPrice": 42000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "VanTron-20-Trang",
+          "price": 28750,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj72l87se2",
+          "stock": 27,
+          "customerPrice": 15000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "VanTron-25-Trang",
+          "price": 34306,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj72l87se2",
+          "stock": 47,
+          "customerPrice": 19000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "VanTron-32-Trang",
+          "price": 46806,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj72l87se2",
+          "stock": 23,
+          "customerPrice": 28000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "VanTron-20-Den",
+          "price": 34306,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqyn40me77k157",
+          "stock": 25,
+          "customerPrice": 19000
+        }
+      ]
+    },
+    {
+      "id": "42811175988",
+      "name": "Đầu thổi mỏ vịt phi 20, 25, 32 - Màu trắng, đen",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtkl2e2915a56",
+      "variations": [
+        {
+          "name": "Mỏ vịt nhỏ 20, Trắng",
+          "sku": "MoVitNho-20-Trang",
+          "price": 30139,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtkl2e2915a56",
+          "stock": 9,
+          "customerPrice": 16000
+        },
+        {
+          "name": "Mỏ vịt nhỏ 20, Đen",
+          "sku": "MoVitNho-20-Den",
+          "price": 28750,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtkl2e2915a56",
+          "stock": 11,
+          "customerPrice": 15000
+        },
+        {
+          "name": "Mỏ vịt vừa 20, Trắng",
+          "sku": "MoVitVua-20-Trang",
+          "price": 37083,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtkl4ldfbbec6",
+          "stock": 9,
+          "customerPrice": 21000
+        },
+        {
+          "name": "Mỏ vịt vừa 20, Đen",
+          "sku": "MoVitVua-20-Den",
+          "price": 34306,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtkl4ldfbbec6",
+          "stock": 12,
+          "customerPrice": 19000
+        },
+        {
+          "name": "Mỏ vịt lớn 25, Trắng",
+          "sku": "MoVitLon-25-Trang",
+          "price": 44028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtkkyqtgvex35",
+          "stock": 15,
+          "customerPrice": 26000
+        },
+        {
+          "name": "Mỏ vịt lớn 25, Đen",
+          "sku": "MoVitLon-25-Den",
+          "price": 44028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mgtkkyqtgvex35",
+          "stock": 12,
+          "customerPrice": 26000
+        }
+      ]
+    },
+    {
+      "id": "42560975832",
+      "name": "Van khóa bát giác phi 20, 25, 32 - Màu đen",
+      "category": "van-khoa",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mcu2bouod9wc52",
+      "variations": [
+        {
+          "name": "Đen, 25",
+          "sku": "VanBatGiac-25-Den",
+          "price": 55139,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mcu2bouod9wc52",
+          "stock": 0,
+          "customerPrice": 34000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "VanBatGiac-32-Den",
+          "price": 75972,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mcu2bouod9wc52",
+          "stock": 0,
+          "customerPrice": 49000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "VanBatGiac-20-Den",
+          "price": 41250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mcu2bouod9wc52",
+          "stock": 23,
+          "customerPrice": 24000
+        }
+      ]
+    },
+    {
+      "id": "42461167829",
+      "name": "Kẹp ống chữ U phi 20, 25, 32 - Màu xám đậm",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mdx4ta9dlbt08d",
+      "variations": [
+        {
+          "name": "Xám đậm, 32",
+          "sku": "KepOng-32-XamDam",
+          "price": 17639,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mdx4ta9dlbt08d",
+          "stock": 34,
+          "customerPrice": 7000
+        },
+        {
+          "name": "Xám đậm, 20",
+          "sku": "KepOng-20-XamDam",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mdx4ta9dlbt08d",
+          "stock": 20,
+          "customerPrice": 4000
+        },
+        {
+          "name": "Xám đậm, 25",
+          "sku": "KepOng-25-XamDam",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mdx4ta9dlbt08d",
+          "stock": 39,
+          "customerPrice": 6000
+        }
+      ]
+    },
+    {
+      "id": "42318812318",
+      "name": "Đầu nối ren trong co 90 độ phi 20, 25, 32 - Màu trắng",
+      "category": "noi-ren",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134275-824ia-mel84b0e2491e5",
+      "variations": [
+        {
+          "name": "Trắng, 25",
+          "sku": "NoiRenTrongCo90Do-25-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/sg-11134275-824ia-mel84b0e2491e5",
+          "stock": 25,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NoiRenTrongCo90Do-32-Trang",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/sg-11134275-824ia-mel84b0e2491e5",
+          "stock": 24,
+          "customerPrice": 8000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NoiRenTrongCo90Do-20-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/sg-11134275-824ia-mel84b0e2491e5",
+          "stock": 17,
+          "customerPrice": 4000
+        }
+      ]
+    },
+    {
+      "id": "42154291167",
+      "name": "Van 1 chiều phi 20, 25, 32 - Màu trắng, xám đậm",
+      "category": "van-khoa",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkmmjj4rb79",
+      "variations": [
+        {
+          "name": "Trắng, 25",
+          "sku": "Van1C-25-Trang",
+          "price": 73194,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkmmjj4rb79",
+          "stock": 1,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "Van1C-32-Trang",
+          "price": 98194,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkmmjj4rb79",
+          "stock": 24,
+          "customerPrice": 65000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "Van1C-20-Trang",
+          "price": 57917,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkmmjj4rb79",
+          "stock": 9,
+          "customerPrice": 36000
+        },
+        {
+          "name": "Xám đậm, 20",
+          "sku": "Van1C-20-XamDam",
+          "price": 71806,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mel8h9v2xt6v49",
+          "stock": 8,
+          "customerPrice": 46000
+        },
+        {
+          "name": "Xám đậm, 25",
+          "sku": "Van1C-25-XamDam",
+          "price": 82917,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mel8h9v2xt6v49",
+          "stock": 6,
+          "customerPrice": 54000
+        },
+        {
+          "name": "Xám đậm, 32",
+          "sku": "Van1C-32-XamDam",
+          "price": 99583,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mel8h9v2xt6v49",
+          "stock": 0,
+          "customerPrice": 66000
+        }
+      ]
+    },
+    {
+      "id": "42154291163",
+      "name": "Luppe 1 chiều phi 20, 25, 32 - Màu trắng, xám đậm",
+      "category": "van-khoa",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkmohg8ss71",
+      "variations": [
+        {
+          "name": "Trắng, 20",
+          "sku": "Luppe1Chieu-20-Trang",
+          "price": 67639,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkmohg8ss71",
+          "stock": 20,
+          "customerPrice": 43000
+        },
+        {
+          "name": "Xám đậm, 20",
+          "sku": "Luppe1Chieu-20-XamDam",
+          "price": 73194,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mel8n5hu8q2ue3",
+          "stock": 10,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Xám đậm, 25",
+          "sku": "Luppe1Chieu-25-XamDam",
+          "price": 84306,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mel8n5hu8q2ue3",
+          "stock": 9,
+          "customerPrice": 55000
+        },
+        {
+          "name": "Xám đậm, 32",
+          "sku": "Luppe1Chieu-32-XamDam",
+          "price": 102361,
+          "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mel8n5hu8q2ue3",
+          "stock": 3,
+          "customerPrice": 68000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "Luppe1Chieu-25-Trang",
+          "price": 73194,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkmohg8ss71",
+          "stock": 13,
+          "customerPrice": 47000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "Luppe1Chieu-32-Trang",
+          "price": 98194,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkmohg8ss71",
+          "stock": 9,
+          "customerPrice": 65000
+        }
+      ]
+    },
+    {
+      "id": "41854291135",
+      "name": "Nối thẳng phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj6ikkw186",
+      "variations": [
+        {
+          "name": "Trắng, 20",
+          "sku": "NoiThang-20-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj6ikkw186",
+          "stock": 52,
+          "customerPrice": 4000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NoiThang-25-Trang",
+          "price": 14861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj6ikkw186",
+          "stock": 45,
+          "customerPrice": 5000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NoiThang-32-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj6ikkw186",
+          "stock": 37,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NoiThang-20-Den",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykwu5y6djbc5",
+          "stock": 32,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "NoiThang-25-Den",
+          "price": 17639,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykwu5y6djbc5",
+          "stock": 26,
+          "customerPrice": 7000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "NoiThang-32-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqykwu5y6djbc5",
+          "stock": 33,
+          "customerPrice": 8000
+        }
+      ]
+    },
+    {
+      "id": "41854291132",
+      "name": "Cút chữ T phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymgruguy3075",
+      "variations": [
+        {
+          "name": "Đen, 25",
+          "sku": "CutChuT-25-Den",
+          "price": 21806,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymgruguy3075",
+          "stock": 35,
+          "customerPrice": 10000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "CutChuT-32-Den",
+          "price": 30139,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymgruguy3075",
+          "stock": 40,
+          "customerPrice": 16000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "CutChuT-20-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj9ufrh445",
+          "stock": 32,
+          "customerPrice": 4000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "CutChuT-25-Trang",
+          "price": 14861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj9ufrh445",
+          "stock": 35,
+          "customerPrice": 5000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "CutChuT-32-Trang",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj9ufrh445",
+          "stock": 37,
+          "customerPrice": 8000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "CutChuT-20-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymgruguy3075",
+          "stock": 20,
+          "customerPrice": 8000
+        }
+      ]
+    },
+    {
+      "id": "41754291307",
+      "name": "Co 90 độ phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-truc-tiep",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylzod0kava26",
+      "variations": [
+        {
+          "name": "Đen, 32",
+          "sku": "Co90Do-32-Den",
+          "price": 24583,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylzod0kava26",
+          "stock": 33,
+          "customerPrice": 12000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "Co90Do-20-Trang",
+          "price": 12083,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj5ymsuk1d",
+          "stock": 37,
+          "customerPrice": 3000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "Co90Do-25-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj5ymsuk1d",
+          "stock": 64,
+          "customerPrice": 4000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "Co90Do-32-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkj5ymsuk1d",
+          "stock": 50,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "Co90Do-20-Den",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylzod0kava26",
+          "stock": 32,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "Co90Do-25-Den",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqylzod0kava26",
+          "stock": 53,
+          "customerPrice": 8000
+        }
+      ]
+    },
+    {
+      "id": "41754291306",
+      "name": "Núm hút đáy lọc rác phi 20, 25, 32 - Màu trắng, đen",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqyltw1s0paf97",
+      "variations": [
+        {
+          "name": "Đen, 25",
+          "sku": "NumLocRac-25-Den",
+          "price": 17639,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqyltw1s0paf97",
+          "stock": 44,
+          "customerPrice": 7000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "NumLocRac-32-Den",
+          "price": 21806,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqyltw1s0paf97",
+          "stock": 5,
+          "customerPrice": 10000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NumLocRac-20-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk7p28609e",
+          "stock": 40,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NumLocRac-25-Trang",
+          "price": 17639,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk7p28609e",
+          "stock": 35,
+          "customerPrice": 7000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NumLocRac-32-Trang",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mawpkk7p28609e",
+          "stock": 10,
+          "customerPrice": 8000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NumLocRac-20-Den",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqyltw1s0paf97",
+          "stock": 32,
+          "customerPrice": 6000
+        }
+      ]
+    },
+    {
+      "id": "41363650497",
+      "name": "Van khóa tròn dễ vặn, đóng mở nhẹ nhàng phi 20, 25, 32 - Màu trắng/Xám đậm",
+      "category": "van-khoa",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mdiaywgfi0mp29",
+      "variations": [
+        {
+          "name": "Trắng, 32",
+          "sku": "VanTronDeVan-32-Trang",
+          "price": 75972,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mdiaywgfi0mp29",
+          "stock": 30,
+          "customerPrice": 49000
+        },
+        {
+          "name": "Xám đậm, 20",
+          "sku": "VanTronDeVan-20-XamDam",
+          "price": 49583,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mdiaywfvitdbf0",
+          "stock": 20,
+          "customerPrice": 30000
+        },
+        {
+          "name": "Xám đậm, 25",
+          "sku": "VanTronDeVan-25-XamDam",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mdiaywfvitdbf0",
+          "stock": 28,
+          "customerPrice": 41000
+        },
+        {
+          "name": "Xám đậm, 32",
+          "sku": "VanTronDeVan-32-XamDam",
+          "price": 75972,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mdiaywfvitdbf0",
+          "stock": 6,
+          "customerPrice": 49000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "VanTronDeVan-20-Trang",
+          "price": 49583,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mdiaywgfi0mp29",
+          "stock": 0,
+          "customerPrice": 30000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "VanTronDeVan-25-Trang",
+          "price": 64861,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mdiaywgfi0mp29",
+          "stock": 23,
+          "customerPrice": 41000
+        }
+      ]
+    },
+    {
+      "id": "40455487943",
+      "name": "Overflow LKB v2 hộp nhựa điện tử dành cho lọc tràn dưới fi20, 25, 32 - Tự ngắt/mồi nước khi bật tắt bơm",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxoiir99v98",
+      "variations": [
+        {
+          "name": "Trắng – Xanh dương, 25",
+          "sku": "Overflow-25-Trang-XanhDuong",
+          "price": 347133,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxoiir99v98",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Vàng, 32",
+          "sku": "Overflow-32-Den-Vang",
+          "price": 437790,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy5h7xkmr94",
+          "stock": 2
+        },
+        {
+          "name": "Trắng – Xanh dương, 20",
+          "sku": "Overflow-20-Trang-XanhDuong",
+          "price": 311781,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxoiir99v98",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Xanh lá, 25",
+          "sku": "Overflow-25-Den-XanhLa",
+          "price": 381814,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy3bt2wgn86",
+          "stock": 1
+        },
+        {
+          "name": "Trắng – Vàng, 20",
+          "sku": "Overflow-20-Trang-Vang",
+          "price": 324407,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxw9df6pt96",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Xanh dương, 32",
+          "sku": "Overflow-32-Den-XanhDuong",
+          "price": 421797,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxymjzxs1e9",
+          "stock": 2
+        },
+        {
+          "name": "Đen – Trắng, 32",
+          "sku": "Overflow-32-Den-Trang",
+          "price": 421797,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxxfjph2re3",
+          "stock": 2
+        },
+        {
+          "name": "Trắng – Trắng, 25",
+          "sku": "Overflow-25-Trang-Trang",
+          "price": 347133,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxn54rkyg99",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Hồng, 25",
+          "sku": "Overflow-25-Trang-Hong",
+          "price": 360601,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxv3h4jpz1b",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Đen, 32",
+          "sku": "Overflow-32-Den-Den",
+          "price": 432740,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxzue7u8o8b",
+          "stock": 2
+        },
+        {
+          "name": "Trắng – Đen, 25",
+          "sku": "Overflow-25-Trang-Den",
+          "price": 355551,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxpvcrsg15b",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Cam, 20",
+          "sku": "Overflow-20-Den-Cam",
+          "price": 334676,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy266rrg3a5",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Đỏ, 32",
+          "sku": "Overflow-32-Den-Do",
+          "price": 432740,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy0ycjys876",
+          "stock": 2
+        },
+        {
+          "name": "Trắng – Xanh lá, 25",
+          "sku": "Overflow-25-Trang-XanhLa",
+          "price": 360601,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxttozjkna2",
+          "stock": 1
+        },
+        {
+          "name": "Đen – Xanh dương, 20",
+          "sku": "Overflow-20-Den-XanhDuong",
+          "price": 327100,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxymjzxs1e9",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Cam, 32",
+          "sku": "Overflow-32-Den-Cam",
+          "price": 432740,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy266rrg3a5",
+          "stock": 2
+        },
+        {
+          "name": "Đen – Cam, 25",
+          "sku": "Overflow-25-Den-Cam",
+          "price": 376764,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy266rrg3a5",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Xanh dương, 25",
+          "sku": "Overflow-25-Den-XanhDuong",
+          "price": 368346,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxymjzxs1e9",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Hồng, 32",
+          "sku": "Overflow-32-Den-Hong",
+          "price": 437790,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy4gvg7vc0d",
+          "stock": 2
+        },
+        {
+          "name": "Đen – Xanh lá, 20",
+          "sku": "Overflow-20-Den-XanhLa",
+          "price": 339726,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy3bt2wgn86",
+          "stock": 1
+        },
+        {
+          "name": "Trắng – Cam, 32",
+          "sku": "Overflow-32-Trang-Cam",
+          "price": 398901,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxshyxby9d0",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Đỏ, 25",
+          "sku": "Overflow-25-Den-Do",
+          "price": 376764,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy0ycjys876",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Đỏ, 32",
+          "sku": "Overflow-32-Trang-Do",
+          "price": 398901,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxr68v848d1",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Hồng, 25",
+          "sku": "Overflow-25-Den-Hong",
+          "price": 381814,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy4gvg7vc0d",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Đỏ, 20",
+          "sku": "Overflow-20-Den-Do",
+          "price": 334676,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy0ycjys876",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Trắng, 25",
+          "sku": "Overflow-25-Den-Trang",
+          "price": 368346,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxxfjph2re3",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Hồng, 32",
+          "sku": "Overflow-32-Trang-Hong",
+          "price": 403951,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxv3h4jpz1b",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Đỏ, 20",
+          "sku": "Overflow-20-Trang-Do",
+          "price": 319356,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxr68v848d1",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Đen, 20",
+          "sku": "Overflow-20-Den-Den",
+          "price": 334676,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxzue7u8o8b",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Đen, 25",
+          "sku": "Overflow-25-Den-Den",
+          "price": 376764,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxzue7u8o8b",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Cam, 20",
+          "sku": "Overflow-20-Trang-Cam",
+          "price": 319356,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxshyxby9d0",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Đen, 32",
+          "sku": "Overflow-32-Trang-Den",
+          "price": 398901,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxpvcrsg15b",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Đỏ, 25",
+          "sku": "Overflow-25-Trang-Do",
+          "price": 355551,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxr68v848d1",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Hồng, 20",
+          "sku": "Overflow-20-Trang-Hong",
+          "price": 324407,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxv3h4jpz1b",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Hồng, 20",
+          "sku": "Overflow-20-Den-Hong",
+          "price": 339726,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy4gvg7vc0d",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Vàng, 20",
+          "sku": "Overflow-20-Den-Vang",
+          "price": 339726,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy5h7xkmr94",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Xanh lá, 20",
+          "sku": "Overflow-20-Trang-XanhLa",
+          "price": 324407,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxttozjkna2",
+          "stock": 1
+        },
+        {
+          "name": "Trắng – Cam, 25",
+          "sku": "Overflow-25-Trang-Cam",
+          "price": 355551,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxshyxby9d0",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Vàng, 25",
+          "sku": "Overflow-25-Trang-Vang",
+          "price": 360601,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxw9df6pt96",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Xanh lá, 32",
+          "sku": "Overflow-32-Trang-XanhLa",
+          "price": 403951,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxttozjkna2",
+          "stock": 3
+        },
+        {
+          "name": "Đen – Trắng, 20",
+          "sku": "Overflow-20-Den-Trang",
+          "price": 327100,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxxfjph2re3",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Đen, 20",
+          "sku": "Overflow-20-Trang-Den",
+          "price": 319356,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxpvcrsg15b",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Vàng, 25",
+          "sku": "Overflow-25-Den-Vang",
+          "price": 381814,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy5h7xkmr94",
+          "stock": 4
+        },
+        {
+          "name": "Đen – Xanh lá, 32",
+          "sku": "Overflow-32-Den-XanhLa",
+          "price": 437790,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoy3bt2wgn86",
+          "stock": 2
+        },
+        {
+          "name": "Trắng – Xanh dương, 32",
+          "sku": "Overflow-32-Trang-XanhDuong",
+          "price": 387958,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxoiir99v98",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Trắng, 20",
+          "sku": "Overflow-20-Trang-Trang",
+          "price": 311781,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxn54rkyg99",
+          "stock": 4
+        },
+        {
+          "name": "Trắng – Vàng, 32",
+          "sku": "Overflow-32-Trang-Vang",
+          "price": 403951,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxw9df6pt96",
+          "stock": 2
+        },
+        {
+          "name": "Trắng – Trắng, 32",
+          "sku": "Overflow-32-Trang-Trang",
+          "price": 387958,
+          "image": "https://cf.shopee.vn/file/vn-11134275-7ras8-mbaoxn54rkyg99",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "40368803533",
+      "name": "Gioăng silicon phi 20, 25, 32 - Màu trắng",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134275-820l4-mel84azoupdw1a",
+      "variations": [
+        {
+          "name": "Trắng, 32",
+          "sku": "GioangSilicon-32-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134275-820l4-mel84azoupdw1a",
+          "stock": 53,
+          "customerPrice": 6000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "GioangSilicon-20-Trang",
+          "price": 12083,
+          "image": "https://cf.shopee.vn/file/vn-11134275-820l4-mel84azoupdw1a",
+          "stock": 68,
+          "customerPrice": 3000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "GioangSilicon-25-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134275-820l4-mel84azoupdw1a",
+          "stock": 85,
+          "customerPrice": 4000
+        }
+      ]
+    },
+    {
+      "id": "29565071815",
+      "name": "Cám dành cho cá Fishton - Không gây đục nước, cá rất thích ăn, tăng size đều, tiêu hóa tốt (500gr)",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1pmskly43pb9c",
+      "variations": [
+        {
+          "name": "Mặc định",
+          "sku": "29565071815",
+          "price": 175000,
+          "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1pmskly43pb9c",
+          "stock": 0
+        }
+      ]
+    },
+    {
+      "id": "27191474499",
+      "name": "Đầu nối ren trong thẳng phi 20, 25, 32 - Màu trắng",
+      "category": "noi-ren",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-ml6k8kiw75l09b",
+      "variations": [
+        {
+          "name": "Trắng, 20",
+          "sku": "NoiRenTrongThang-20-Trang",
+          "price": 12083,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-ml6k8kiw75l09b",
+          "stock": 20,
+          "customerPrice": 3000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NoiRenTrongThang-25-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-ml6k8kiw75l09b",
+          "stock": 29,
+          "customerPrice": 4000
+        },
+        {
+          "name": "Trắng, 32",
+          "sku": "NoiRenTrongThang-32-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-ml6k8kiw75l09b",
+          "stock": 21,
+          "customerPrice": 6000
+        }
+      ]
+    },
+    {
+      "id": "27191474498",
+      "name": "Đầu nối ren ngoài phi 20, 25, 32 - Màu trắng, đen",
+      "category": "noi-ren",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-ml6k7jvxrbiaa3",
+      "variations": [
+        {
+          "name": "Trắng, 32",
+          "sku": "NoiRenNgoai-32-Trang",
+          "price": 19028,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-ml6k7jvxrbiaa3",
+          "stock": 23,
+          "customerPrice": 8000
+        },
+        {
+          "name": "Đen, 20",
+          "sku": "NoiRenNgoai-20-Den",
+          "price": 20417,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymwyanbabp14",
+          "stock": 0,
+          "customerPrice": 9000
+        },
+        {
+          "name": "Đen, 25",
+          "sku": "NoiRenNgoai-25-Den",
+          "price": 27361,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymwyanbabp14",
+          "stock": 0,
+          "customerPrice": 14000
+        },
+        {
+          "name": "Đen, 32",
+          "sku": "NoiRenNgoai-32-Den",
+          "price": 34306,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-mqymwyanbabp14",
+          "stock": 1,
+          "customerPrice": 19000
+        },
+        {
+          "name": "Trắng, 20",
+          "sku": "NoiRenNgoai-20-Trang",
+          "price": 13472,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-ml6k7jvxrbiaa3",
+          "stock": 21,
+          "customerPrice": 4000
+        },
+        {
+          "name": "Trắng, 25",
+          "sku": "NoiRenNgoai-25-Trang",
+          "price": 16250,
+          "image": "https://cf.shopee.vn/file/vn-11134207-81ztc-ml6k7jvxrbiaa3",
+          "stock": 24,
+          "customerPrice": 6000
+        }
+      ]
+    },
+    {
+      "id": "26615076055",
+      "name": "Men tiêu hoá tổng hợp Fishton (45gr)",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1pmbvvt7brnad",
+      "variations": [
+        {
+          "name": "Mặc định",
+          "sku": "26615076055",
+          "price": 77361,
+          "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1pmbvvt7brnad",
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "26015221430",
+      "name": "Vi sinh Fishton - Hỗ trợ đường ruột cho cá cảnh, hạn chế viêm nhiễm đường ruột (500ml-1000ml)",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1qe0kubrk5ba2",
+      "variations": [
+        {
+          "name": "1000ml",
+          "sku": "26015221430",
+          "price": 120000,
+          "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1qe0kubrk5ba2",
+          "stock": 0
+        },
+        {
+          "name": "500ml",
+          "sku": "26015221430",
+          "price": 70000,
+          "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1qe0fzsuy4z64",
+          "stock": 0
+        }
+      ]
+    },
+    {
+      "id": "25987440391",
+      "name": "Vi sinh xử lý nước Fishton - Vi sinh chuyên dụng cho bể cá, thuỷ sinh, làm trong nước (500ml-1000ml)",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1pjp1mxjg732f",
+      "variations": [
+        {
+          "name": "500ml",
+          "sku": "Fishton-VS-Nuoc-500ml",
+          "price": 51000,
+          "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1pjp1mxjg732f",
+          "stock": 0
+        },
+        {
+          "name": "1000ml",
+          "sku": "25987440391",
+          "price": 120000,
+          "image": "https://cf.shopee.vn/file/vn-11134207-7ras8-m1pjuni04ymrd1",
+          "stock": 0
+        }
+      ]
+    },
+    {
+      "id": "25696807179",
+      "name": "Khoáng, vitamin đa năng Fishton - Cung cấp vitamin, khoáng chất, tăng đề kháng cho cá cảnh (45gr)",
+      "category": "ho-tro",
+      "unit": "cái",
+      "image": "https://cf.shopee.vn/file/sg-11134201-824ib-me72zytqbif97c",
+      "variations": [
+        {
+          "name": "Mặc định",
+          "sku": "25696807179",
+          "price": 77361,
+          "image": "https://cf.shopee.vn/file/sg-11134201-824ib-me72zytqbif97c",
+          "stock": 20
+        }
+      ]
+    }
+  ]
+}

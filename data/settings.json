@@ -1,0 +1,43 @@
+{
+  "brandName": "Lukibum",
+  "tagline": "Phụ kiện ống UPVC nhiều màu",
+  "messenger": "https://m.me/bum.lonely9x",
+  "socials": {
+    "tiktok": "https://www.tiktok.com/@lukibum",
+    "shopee": "https://shopee.vn/shop/168996285",
+    "facebook": "https://www.facebook.com/people/Lukibum-Ph%E1%BB%A5-ki%E1%BB%87n-UPVC-b%E1%BB%83-c%C3%A1-c%E1%BA%A3nh/61588613399377/"
+  },
+  "zaloQR": "assets/images/zalo-qr.svg",
+  "banners": [
+    {
+      "title": "Lukibum — Phụ kiện ống UPVC nhiều màu",
+      "subtitle": "Giá tốt cho người mê cá cảnh & DIY",
+      "image": "assets/images/banner-1.svg"
+    },
+    {
+      "title": "Overflow in 3D",
+      "subtitle": "Dự án đang phát triển — theo dõi Lukibum để xem tiến độ",
+      "image": "assets/images/banner-2.svg"
+    }
+  ],
+  "deals": [
+    {
+      "icon": "message-circle",
+      "tag": "Thành viên",
+      "title": "Giá ưu đãi riêng",
+      "desc": "Thành viên nhóm Zalo Lukibum được áp giá ưu đãi trực tiếp khi lên đơn qua Messenger."
+    },
+    {
+      "icon": "package",
+      "tag": "Combo DIY",
+      "title": "Ghép combo tiết kiệm",
+      "desc": "Nhu cầu theo dự án? Ghép combo phụ kiện để tiết kiệm hơn so với mua lẻ từng món."
+    },
+    {
+      "icon": "music",
+      "tag": "Hàng mới",
+      "title": "Nhận tin sớm",
+      "desc": "Nhóm Zalo cập nhật sản phẩm mới, dự án DIY và ưu đãi ra mắt trước cộng đồng."
+    }
+  ]
+}
