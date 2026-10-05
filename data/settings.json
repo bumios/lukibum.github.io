@@ -10,14 +10,12 @@
   "zaloQR": "assets/images/zalo-qr.svg",
   "banners": [
     {
-      "title": "Lukibum — Phụ kiện ống UPVC nhiều màu",
-      "subtitle": "Giá tốt cho người mê cá cảnh & DIY",
-      "image": "assets/images/banner-1.svg"
+      "image": "assets/images/banner-2.png",
+      "mobileImage": "assets/images/banner-2-mobile.png"
     },
     {
-      "title": "Overflow in 3D",
-      "subtitle": "Dự án đang phát triển — theo dõi Lukibum để xem tiến độ",
-      "image": "assets/images/banner-2.svg"
+      "image": "assets/images/banner-1.png",
+      "mobileImage": "assets/images/banner-1-mobile.png"
     }
   ],
   "deals": [

@@ -64,7 +64,7 @@ function fillIcons(root = document) {
 }
 
 async function initApp() {
-  APP.settings = await loadJSON("data/settings.json");
+  APP.settings = await loadJSON("data/settings.json?v=9");
   renderHeader();
   // Header (chứa #cart-count) mới vừa render xong → cập nhật số lượng giỏ hàng
   if (typeof updateCartCount === "function") updateCartCount();
@@ -196,15 +196,36 @@ function renderCarousel() {
   let idx = 0;
   el.innerHTML =
     banners
-      .map(
-        (b, i) => `
-      <div class="slide ${i === 0 ? "active" : ""}" style="background-image:url('${esc(b.image)}')">
-        <div class="slide-content">
-          <h2>${esc(b.title)}</h2>
-          <p>${esc(b.subtitle)}</p>
-        </div>
-      </div>`
-      )
+      .map((b, i) => {
+        const active = i === 0 ? "active" : "";
+        if (b.image) {
+          const mobileImg = b.mobileImage || b.image;
+          // URL trong CSS variable được resolve so với css/style.css, nên phải dùng
+          // đường dẫn tuyệt đối theo gốc site (/assets/...) để không bị thêm /css/
+          const abs = (p) => (p.startsWith("/") ? p : "/" + p);
+          return `<div class="slide slide-full ${active}" style="--slide-img:url('${esc(abs(b.image))}');--slide-img-mobile:url('${esc(abs(mobileImg))}')"></div>`;
+        }
+        if (b.scene) {
+          return `<div class="slide ${active}">
+            <div class="slide-content">
+              <h2>${esc(b.title)}</h2>
+              <p>${esc(b.subtitle)}</p>
+            </div>
+            <div class="slide-image" style="background-image:url('${esc(b.scene)}')"></div>
+          </div>`;
+        }
+        // Banner chưa có ảnh: viền nét đứt tượng trưng gần full content + 2 kích thước
+        return `<div class="slide slide-nophoto ${active}">
+          <div class="nophoto-frame">
+            ${b.title ? `<h2>${esc(b.title)}</h2>` : ""}
+            ${b.subtitle ? `<p>${esc(b.subtitle)}</p>` : ""}
+            <div class="nophoto-sizes">
+              <span>Web: 2048 × 768</span>
+              <span>Mobile: 1448 × 1086</span>
+            </div>
+          </div>
+        </div>`;
+      })
       .join("") +
     `<button class="carousel-btn prev" aria-label="Trước">${icon("chevron-left")}</button>
      <button class="carousel-btn next" aria-label="Sau">${icon("chevron-right")}</button>
@@ -225,17 +246,24 @@ function renderCarousel() {
     el.appendChild(b);
   }
 
+  const AUTO_MS = 8000; // khoảng thời gian tự chuyển slide (ms)
+  let timer = null;
   function go(i) {
     idx = (i + banners.length) % banners.length;
     $$(".slide", el).forEach((s, n) => s.classList.toggle("active", n === idx));
     $$(".carousel-dots button", el).forEach((d, n) => d.classList.toggle("active", n === idx));
   }
-  $(".carousel-btn.prev", el).addEventListener("click", () => go(idx - 1));
-  $(".carousel-btn.next", el).addEventListener("click", () => go(idx + 1));
+  // Đặt lại đồng hồ tự chuyển: mỗi khi user bấm thì đếm lại từ đầu
+  function restartTimer() {
+    clearInterval(timer);
+    timer = setInterval(() => go(idx + 1), AUTO_MS);
+  }
+  $(".carousel-btn.prev", el).addEventListener("click", () => { go(idx - 1); restartTimer(); });
+  $(".carousel-btn.next", el).addEventListener("click", () => { go(idx + 1); restartTimer(); });
   $$(".carousel-dots button", el).forEach((d) =>
-    d.addEventListener("click", () => go(parseInt(d.dataset.i, 10)))
+    d.addEventListener("click", () => { go(parseInt(d.dataset.i, 10)); restartTimer(); })
   );
-  setInterval(() => go(idx + 1), 5000);
+  restartTimer();
 }
 
 function renderDeals() {
