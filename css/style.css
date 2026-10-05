@@ -1095,6 +1095,9 @@ section { padding: 40px 0; }
   flex-direction: column;
   overflow: hidden;
   box-shadow: var(--shadow-lg);
+  /* Chặn iOS highlight text trong modal khi nhấn giữ vào ảnh */
+  -webkit-user-select: none;
+  user-select: none;
 }
 .image-modal-header {
   padding: 16px 20px;
@@ -1110,6 +1113,11 @@ section { padding: 40px 0; }
   border-radius: 12px;
   border: 1px solid var(--border);
   display: block;
+  /* Cho phép long-press hiện menu Lưu/Chia sẻ ảnh trên iOS,
+     không để iOS nhảy sang highlight text phía trên */
+  -webkit-touch-callout: default;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .image-modal-actions { padding: 16px 20px; border-top: 1px solid var(--border); }
 .image-modal-hint {

@@ -356,7 +356,7 @@ function showImageModal(dataUrl) {
           <button class="drawer-close" id="image-modal-close" aria-label="Đóng">${icon("x")}</button>
         </div>
         <div class="image-modal-body">
-          <img id="image-modal-img" src="" alt="Ảnh đơn hàng">
+          <img id="image-modal-img" src="" alt="Ảnh đơn hàng" draggable="false">
         </div>
         <div class="image-modal-actions">
           <button class="btn btn-primary btn-block" id="image-share">${icon("share")} Lưu ảnh / Chia sẻ</button>
