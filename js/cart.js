@@ -141,7 +141,9 @@ function renderCart() {
     )
     .join("");
 
+  const totalUnits = cart.reduce((sum, i) => sum + i.qty, 0);
   footer.innerHTML = `
+    <div class="cart-summary">${cart.length} mặt hàng • ${totalUnits} sản phẩm</div>
     <div class="cart-total-row">
       <span>Tổng cộng</span>
       <span class="amount">${formatMoney(cartTotal())}</span>
@@ -288,6 +290,10 @@ async function captureCartImage() {
     btn.innerHTML = "Đang chụp ảnh...";
   }
 
+  // Sắp xếp A→Z để dễ đối chiếu khi chuẩn bị hàng (chỉ ảnh chụp, không đổi thứ tự giỏ)
+  const sorted = [...cart].sort((a, b) => a.name.localeCompare(b.name, "vi"));
+  const totalUnits = cart.reduce((sum, i) => sum + i.qty, 0);
+
   // Container chụp riêng, đặt ngoài màn hình nhưng vẫn render để vẽ được.
   // Dùng layout cố định (không dùng .cart-body đang scroll) để chụp ĐỦ toàn bộ món.
   const capture = document.createElement("div");
@@ -298,7 +304,7 @@ async function captureCartImage() {
       <div class="oc-sub">Đơn hàng · ${new Date().toLocaleDateString("vi-VN")}</div>
     </div>
     <div class="oc-items">
-      ${cart
+      ${sorted
         .map(
           (item) => `
         <div class="oc-item">
@@ -313,6 +319,7 @@ async function captureCartImage() {
         )
         .join("")}
     </div>
+    <div class="oc-summary">${cart.length} mặt hàng • ${totalUnits} sản phẩm</div>
     <div class="oc-total">
       <span>Tổng cộng</span>
       <span>${formatMoney(cartTotal())}</span>

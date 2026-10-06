@@ -798,6 +798,16 @@ section { padding: 40px 0; }
   color: #fff;
   transform: translateY(-2px);
 }
+.footer-address {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+}
+.footer-address .icon-svg { color: var(--primary-dark); flex: none; }
 .footer-note { color: #94a3b8; font-size: 0.85rem; margin: 0; }
 
 /* ---------- Messenger FAB ---------- */
@@ -1008,6 +1018,13 @@ section { padding: 40px 0; }
   padding: 18px 20px;
   background: var(--card-2);
 }
+.cart-summary {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: right;
+  margin-bottom: 8px;
+}
 .cart-total-row {
   display: flex;
   justify-content: space-between;
@@ -1060,6 +1077,13 @@ section { padding: 40px 0; }
 .oc-meta { color: #64748b; font-size: 0.82rem; margin-top: 2px; }
 .oc-qty { color: #0d9488; font-weight: 700; font-size: 0.85rem; margin-top: 3px; }
 .oc-price { font-weight: 700; color: #0f172a; white-space: nowrap; }
+.oc-summary {
+  color: #64748b;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 18px;
+}
 .oc-total {
   display: flex;
   justify-content: space-between;
@@ -1119,11 +1143,17 @@ section { padding: 40px 0; }
   -webkit-user-select: none;
   user-select: none;
 }
-.image-modal-actions { padding: 16px 20px; border-top: 1px solid var(--border); }
+.image-modal-actions {
+  padding: 16px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .image-modal-hint {
   color: var(--muted);
   font-size: 0.82rem;
-  margin: 10px 0 0;
+  margin: 0;
   text-align: center;
   line-height: 1.5;
 }

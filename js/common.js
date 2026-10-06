@@ -65,7 +65,7 @@ function fillIcons(root = document) {
 }
 
 async function initApp() {
-  APP.settings = await loadJSON("data/settings.json?v=13");
+  APP.settings = await loadJSON("data/settings.json?v=14");
   renderHeader();
   // Header (chứa #cart-count) mới vừa render xong → cập nhật số lượng giỏ hàng
   if (typeof updateCartCount === "function") updateCartCount();
@@ -172,6 +172,7 @@ function renderFooter() {
           )
           .join("")}
       </div>
+      ${s.address ? `<p class="footer-address">${icon("pin")} ${esc(s.address)}</p>` : ""}
       <p class="footer-note">© ${new Date().getFullYear()} Lukibum. Phụ kiện ống UPVC nhiều màu cho cá cảnh & DIY.</p>
     </div>`;
 }
