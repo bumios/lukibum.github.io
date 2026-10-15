@@ -135,13 +135,16 @@ async function renderCatalog() {
 
   const params = new URLSearchParams(location.search);
   if (params.get("cat")) catalogState.category = params.get("cat");
+  // Từ header search: ?q= tự điền vào ô tìm kiếm và lọc sẵn
+  const q = params.get("q");
+  if (q) catalogState.search = q;
 
   const filters = $("#filters");
   const grid = $("#product-grid");
   const count = $("#result-count");
 
   filters.innerHTML = `
-    <input type="search" class="search-input" id="search-input" placeholder="Tìm sản phẩm... (vd: nấm, van khóa, ống)">
+    <input type="search" class="search-input" id="search-input" placeholder="Tìm sản phẩm... (vd: nấm, van khóa, ống)" value="${esc(q || "")}">
     <div class="chip-row" id="cat-chips">
       <button class="chip ${catalogState.category === "all" ? "active" : ""}" data-cat="all">Tất cả</button>
       ${data.categories

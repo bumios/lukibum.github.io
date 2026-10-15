@@ -47,6 +47,7 @@ const ICONS = {
   "plus": "<path d='M5 12h14' /> <path d='M12 5v14' />",
   "shopping-bag": "<path d='M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z' /> <path d='M3 6h18' /> <path d='M16 10a4 4 0 0 1-8 0' />",
   "shopping-cart": "<circle cx='8' cy='21' r='1' /> <circle cx='19' cy='21' r='1' /> <path d='M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12' />",
+  "search": "<circle cx='11' cy='11' r='8' /> <path d='m21 21-4.3-4.3' />",
   "share": "<circle cx='18' cy='5' r='3' /> <circle cx='6' cy='12' r='3' /> <circle cx='18' cy='19' r='3' /> <line x1='8.59' x2='15.42' y1='13.51' y2='17.49' /> <line x1='15.41' x2='8.59' y1='6.51' y2='10.49' />",
   "sliders-horizontal": "<line x1='21' x2='14' y1='4' y2='4' /> <line x1='10' x2='3' y1='4' y2='4' /> <line x1='21' x2='12' y1='12' y2='12' /> <line x1='8' x2='3' y1='12' y2='12' /> <line x1='21' x2='16' y1='20' y2='20' /> <line x1='12' x2='3' y1='20' y2='20' /> <line x1='14' x2='14' y1='2' y2='6' /> <line x1='8' x2='8' y1='10' y2='14' /> <line x1='16' x2='16' y1='18' y2='22' />",
   "trash": "<path d='M3 6h18' /> <path d='M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6' /> <path d='M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2' /> <line x1='10' x2='10' y1='11' y2='17' /> <line x1='14' x2='14' y1='11' y2='17' />",
@@ -142,11 +143,128 @@ function renderHeader() {
         <a href="san-pham.html">Sản phẩm</a>
         <a href="huong-dan-mua-hang.html">Hướng dẫn mua hàng</a>
       </nav>
+      <button class="search-btn" id="header-search-btn" aria-label="Tìm kiếm">${icon("search")}</button>
       <button class="menu-toggle" id="menu-toggle" aria-label="Menu">${icon("menu")}</button>
       <button class="cart-btn" id="cart-toggle" aria-label="Đơn hàng">
         ${icon("shopping-bag")} <span class="cart-count" id="cart-count">0</span>
       </button>
+    </div>
+    <div class="search-overlay" id="search-overlay" hidden>
+      <div class="search-overlay-inner">
+        <div class="search-bar">
+          <span class="search-bar-icon">${icon("search")}</span>
+          <input type="text" id="header-search-input" class="search-bar-input" placeholder="Tìm sản phẩm, danh mục, thông tin..." autocomplete="off">
+          <button class="search-close" id="search-close" aria-label="Đóng tìm kiếm">${icon("x")}</button>
+        </div>
+        <div class="search-results" id="search-results"></div>
+      </div>
     </div>`;
+  wireHeaderSearch();
+}
+
+/* ---------- Header search: tìm nhanh theo thông tin hoặc sản phẩm ---------- */
+
+// Chuẩn hoá không dấu (khớp cách chuẩn hoá trong products.js)
+function normText(s) {
+  return String(s)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d");
+}
+
+// Nguồn gợi ý: các trang thông tin + (nếu đã tải) danh mục & sản phẩm
+function buildSearchIndex() {
+  const items = [
+    { type: "info", label: "Trang chủ", hint: "Trang chủ Lukibum", href: "index.html" },
+    { type: "info", label: "Sản phẩm", hint: "Xem tất cả sản phẩm", href: "san-pham.html" },
+    { type: "info", label: "Hướng dẫn mua hàng", hint: "Quy trình lên đơn & lấy hàng", href: "huong-dan-mua-hang.html" }
+  ];
+  if (typeof PRODUCTS !== "undefined" && PRODUCTS) {
+    (PRODUCTS.categories || []).forEach((c) => {
+      items.push({ type: "info", label: c.name, hint: "Danh mục", href: `san-pham.html?cat=${encodeURIComponent(c.id)}` });
+    });
+    (PRODUCTS.products || []).forEach((p) => {
+      const cat = (PRODUCTS.categories || []).find((x) => x.id === p.category);
+      items.push({ type: "product", label: p.name, hint: cat ? cat.name : "Sản phẩm", href: `san-pham.html?q=${encodeURIComponent(p.name)}` });
+    });
+  }
+  return items;
+}
+
+function renderSearchResults(q) {
+  const box = $("#search-results");
+  if (!box) return;
+  const nq = normText(q);
+  if (!nq) {
+    box.innerHTML = "";
+    return;
+  }
+  const matches = buildSearchIndex()
+    .filter((it) => normText(it.label).includes(nq))
+    .slice(0, 8);
+  box.innerHTML = matches.length
+    ? matches
+        .map(
+          (m) => `
+      <a class="search-result" href="${m.href}">
+        <span class="search-result-icon">${icon(m.type === "product" ? "package" : "info")}</span>
+        <span class="search-result-text">
+          <strong>${esc(m.label)}</strong>
+          <small>${esc(m.hint)}</small>
+        </span>
+      </a>`
+        )
+        .join("")
+    : `<div class="search-empty">Không tìm thấy "${esc(q)}"</div>`;
+}
+
+function openSearchOverlay() {
+  const ov = $("#search-overlay");
+  if (!ov) return;
+  ov.hidden = false;
+  const input = $("#header-search-input");
+  input.value = "";
+  renderSearchResults("");
+  setTimeout(() => input.focus(), 30);
+}
+
+function closeSearchOverlay() {
+  const ov = $("#search-overlay");
+  if (!ov) return;
+  ov.hidden = true;
+}
+
+function toggleSearchOverlay() {
+  const ov = $("#search-overlay");
+  if (!ov) return;
+  if (ov.hidden) openSearchOverlay();
+  else closeSearchOverlay();
+}
+
+function wireHeaderSearch() {
+  $("#header-search-btn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    toggleSearchOverlay();
+  });
+  $("#search-close").addEventListener("click", closeSearchOverlay);
+  const input = $("#header-search-input");
+  input.addEventListener("input", () => renderSearchResults(input.value.trim()));
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      const q = input.value.trim();
+      location.href = q ? `san-pham.html?q=${encodeURIComponent(q)}` : "san-pham.html";
+    }
+    if (e.key === "Escape") closeSearchOverlay();
+  });
+  // Bấm ra ngoài overlay thì đóng
+  document.addEventListener("click", (e) => {
+    const ov = $("#search-overlay");
+    if (ov && !ov.hidden && !ov.contains(e.target)) closeSearchOverlay();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeSearchOverlay();
+  });
 }
 
 function renderFooter() {
