@@ -40,7 +40,7 @@
           "price": 64861,
           "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mhxfqz02l6vae4",
           "stock": 0,
-          "customerPrice": 41000
+          "customerPrice": 30000
         },
         {
           "name": "Đỏ nắp đen",
@@ -48,7 +48,7 @@
           "price": 64861,
           "image": "https://cf.shopee.vn/file/vn-11134207-820l4-mhxfqxi4g1kw50",
           "stock": 41,
-          "customerPrice": 41000
+          "customerPrice": 30000
         }
       ]
     },
