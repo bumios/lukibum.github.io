@@ -74,6 +74,7 @@ function productCard(p, i = 0) {
   return `
   <article class="product-card" style="--d:${(i % 8) * 0.06}s">
     <div class="product-image" data-detail="${p.id}">
+      ${p.onSale ? `<span class="sale-badge">GIÁ SỐC</span>` : ""}
       <img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy">
     </div>
     <div class="product-body">
@@ -133,6 +134,17 @@ async function renderHome() {
     const featured = data.products.slice(0, 4);
     feat.innerHTML = featured.map((p, i) => productCard(p, i)).join("");
     wireProductGrid(feat);
+  }
+
+  // Section "Siêu giảm giá dọn kho": hiện sản phẩm có cờ onSale
+  const saleGrid = $("#sale-grid");
+  if (saleGrid) {
+    const sale = data.products.filter((p) => p.onSale);
+    if (sale.length) {
+      saleGrid.innerHTML = sale.map((p, i) => productCard(p, i)).join("");
+      wireProductGrid(saleGrid);
+      $("#sale-section").hidden = false;
+    }
   }
 
   const qr = $("#zalo-qr");
