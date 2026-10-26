@@ -7,6 +7,19 @@ async function loadProducts() {
   return PRODUCTS;
 }
 
+// Link riêng của một sản phẩm (để share): san-pham.html?sp=<id>
+function productLink(id) {
+  return new URL(`san-pham.html?sp=${id}`, location.href).href;
+}
+
+// Link có ?sp=<id> → tự mở modal sản phẩm đó (link share)
+function openSharedProduct() {
+  const id = new URLSearchParams(location.search).get("sp");
+  if (!id || !PRODUCTS) return;
+  const p = PRODUCTS.products.find((x) => x.id === id);
+  if (p) openProductModal(p.id);
+}
+
 function categoryName(id) {
   const c = (PRODUCTS.categories || []).find((x) => x.id === id);
   return c ? c.name : "";
@@ -124,6 +137,8 @@ async function renderHome() {
 
   const qr = $("#zalo-qr");
   if (qr && APP.settings.zaloQR) qr.src = APP.settings.zaloQR;
+
+  openSharedProduct();
 }
 
 /* ---------- Catalog ---------- */
@@ -182,6 +197,8 @@ async function renderCatalog() {
     count.textContent = list.length + " sản phẩm";
     wireProductGrid(grid);
   }
+
+  openSharedProduct();
 }
 
 /* ---------- Gom phân loại theo độ ưu tiên: màu trước, đường kính (fi) sau ---------- */
@@ -253,16 +270,40 @@ function openProductModal(id) {
                </div>`
         }
         <div class="modal-price" id="modal-price">${priceHTML(variants[0])}</div>
+        <div class="modal-section">
+          <label>Số lượng</label>
+          <div class="stepper">
+            <button id="modal-qty-dec" aria-label="Giảm">${icon("minus")}</button>
+            <span id="modal-qty">1</span>
+            <button id="modal-qty-inc" aria-label="Tăng">${icon("plus")}</button>
+          </div>
+        </div>
         <button class="btn btn-primary btn-block" id="modal-add">Thêm vào đơn</button>
+        <button class="btn btn-ghost btn-block" id="modal-share">${icon("share")} Chia sẻ sản phẩm</button>
       </div>
     </div>`;
   overlay.classList.add("open");
 
   let chosen = variants[0];
+  let qty = 1;
+
+  // Nút "Thêm vào đơn" hiện luôn tổng tiền: giá × số lượng
+  function updateModalAdd() {
+    $("#modal-add").textContent = `Thêm vào đơn — ${formatMoney(sellPrice(chosen) * qty)}`;
+  }
+  function setQty(n) {
+    qty = Math.max(1, Math.min(999, n));
+    $("#modal-qty").textContent = qty;
+    updateModalAdd();
+  }
+  updateModalAdd();
+
   $("#modal-close").addEventListener("click", closeModal);
   overlay.addEventListener("click", (e) => {
     if (e.target === overlay) closeModal();
   });
+  $("#modal-qty-dec").addEventListener("click", () => setQty(qty - 1));
+  $("#modal-qty-inc").addEventListener("click", () => setQty(qty + 1));
   $$("#modal-variants .variant-card", overlay).forEach((c) =>
     c.addEventListener("click", () => {
       chosen = p.variations.find((v) => v.sku === c.dataset.sku) || chosen;
@@ -271,12 +312,22 @@ function openProductModal(id) {
       );
       $("#modal-price").innerHTML = priceHTML(chosen);
       if (chosen.image) $("#modal-img").src = chosen.image;
+      updateModalAdd();
     })
   );
   $("#modal-add").addEventListener("click", () => {
     if (!chosen) return;
-    addToCart(p, chosen);
+    addToCart(p, chosen, qty);
     closeModal();
+  });
+  $("#modal-share").addEventListener("click", async () => {
+    const ok = await copyText(productLink(p.id));
+    showToast(
+      ok
+        ? "Đã copy link sản phẩm — gửi cho bạn bè nhé!"
+        : "Không copy được link, thử lại nhé.",
+      { ms: 2600 }
+    );
   });
 }
 

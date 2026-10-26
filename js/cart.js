@@ -1,14 +1,41 @@
 // Cart drawer: add/edit items by SKU variation, bill, submit via Messenger
 const CART_KEY = "lukibum-cart";
-let cart = [];
-try {
-  cart = JSON.parse(localStorage.getItem(CART_KEY) || "[]");
-} catch (e) {
-  cart = [];
+
+// Đọc giỏ từ localStorage (an toàn: trả [] nếu storage bị chặn hoặc data hỏng)
+function readStoredCart() {
+  try {
+    const data = JSON.parse(localStorage.getItem(CART_KEY) || "[]");
+    return Array.isArray(data) ? data : [];
+  } catch (e) {
+    return [];
+  }
 }
 
+let cart = readStoredCart();
+
+// Đồng bộ khi tab KHÁC ghi vào giỏ — tránh badge kẹt ở 0 trên tab cũ,
+// và tránh tab cũ (memory rỗi) ghi đè lên giỏ mới của tab kia
+window.addEventListener("storage", (e) => {
+  if (e.key !== CART_KEY) return;
+  cart = readStoredCart();
+  updateCartCount();
+  const drawer = $("#cart-drawer");
+  if (drawer && drawer.classList.contains("open")) renderCart();
+});
+
+// Sync lại khi trang được khôi phục từ bfcache (back/forward không chạy lại script)
+window.addEventListener("pageshow", (e) => {
+  if (!e.persisted) return;
+  cart = readStoredCart();
+  updateCartCount();
+});
+
 function saveCart() {
-  localStorage.setItem(CART_KEY, JSON.stringify(cart));
+  try {
+    localStorage.setItem(CART_KEY, JSON.stringify(cart));
+  } catch (e) {
+    // Storage bị chặn (private mode, đầy bộ nhớ) — giỏ vẫn giữ trong memory
+  }
   updateCartCount();
 }
 
@@ -130,10 +157,13 @@ function renderCart() {
         <button class="cart-item-remove" data-remove="${n}" aria-label="Xóa món">${icon("trash")}</button>
       </div>
       <div class="cart-item-controls">
-        <div class="stepper">
-          <button data-dec="${n}" aria-label="Giảm">${icon("minus")}</button>
-          <span>${item.qty}</span>
-          <button data-inc="${n}" aria-label="Tăng">${icon("plus")}</button>
+        <div class="cart-item-qty">
+          <div class="stepper">
+            <button data-dec="${n}" aria-label="Giảm">${icon("minus")}</button>
+            <span>${item.qty}</span>
+            <button data-inc="${n}" aria-label="Tăng">${icon("plus")}</button>
+          </div>
+          <span class="cart-item-unit">${formatMoney(item.price)}</span>
         </div>
         <span class="cart-item-total">${formatMoney(rowTotal(item))}</span>
       </div>
@@ -213,7 +243,7 @@ async function submitOrder() {
   const lines = cart
     .map((i, n) => {
       const spec = i.variation ? ` (${i.variation})` : "";
-      return `${n + 1}. ${i.name}${spec} — SKU: ${i.sku} — × ${i.qty} = ${formatMoney(rowTotal(i))}`;
+      return `${n + 1}. ${i.name}${spec} — SKU: ${i.sku} — ${formatMoney(i.price)} × ${i.qty} = ${formatMoney(rowTotal(i))}`;
     })
     .join("\n");
   const text =
@@ -312,7 +342,7 @@ async function captureCartImage() {
           <div class="oc-info">
             <div class="oc-name">${esc(item.name)}</div>
             ${item.variation ? `<div class="oc-meta">${esc(item.variation)}</div>` : ""}
-            <div class="oc-qty">× ${item.qty}</div>
+            <div class="oc-qty">× ${item.qty} · ${formatMoney(item.price)}</div>
           </div>
           <div class="oc-price">${formatMoney(rowTotal(item))}</div>
         </div>`
