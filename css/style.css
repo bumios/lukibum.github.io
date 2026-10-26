@@ -694,6 +694,91 @@ section { padding: 40px 0; }
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
 }
+/* Glow "thở" mượt: chỉ animate opacity (chạy trên GPU) thay vì box-shadow */
+@keyframes saleGlow {
+  from { opacity: 0.12; }
+  to   { opacity: 1; }
+}
+/* Card giá sốc trong lưới danh mục: viền cam + glow tĩnh */
+.product-card.on-sale {
+  border: 1.5px solid var(--accent);
+  box-shadow: 0 0 18px rgba(249, 115, 22, 0.16), var(--shadow);
+}
+/* Siêu giảm giá: card ngang gọn — ít item vẫn đẹp, nhiều item xếp chồng */
+.sale-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.sale-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card);
+  border: 1.5px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 12px;
+  box-shadow: 0 0 18px rgba(249, 115, 22, 0.16), var(--shadow);
+  animation: cardIn 0.55s var(--ease-out) both;
+  animation-delay: var(--d, 0s);
+}
+/* Lớp glow riêng — animate opacity cho mượt (GPU) */
+.sale-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 36px rgba(249, 115, 22, 0.55);
+  opacity: 0.12;
+  animation: saleGlow 2s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+.sale-image {
+  position: relative;
+  flex: 0 0 110px;
+  width: 110px;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--card-2);
+  cursor: pointer;
+}
+.sale-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sale-info {
+  flex: 1;
+  min-width: 0;
+}
+/* .product-cat có margin-top: -6px cho card dọc — thả lỏng lại cho card ngang */
+.sale-info .product-cat {
+  margin-top: 3px;
+}
+.sale-action {
+  flex-shrink: 0;
+}
+@media (max-width: 560px) {
+  .sale-card {
+    flex-wrap: wrap;
+  }
+  .sale-action {
+    width: 100%;
+  }
+  .sale-action .btn {
+    width: 100%;
+  }
+}
+/* Tôn trọng cài đặt "giảm chuyển động" của hệ điều hành */
+@media (prefers-reduced-motion: reduce) {
+  .sale-card,
+  .sale-card::after,
+  .product-card.on-sale {
+    animation: none;
+  }
+}
 .product-image {
   aspect-ratio: 4 / 3;
   background: var(--card-2);
@@ -1310,6 +1395,7 @@ section { padding: 40px 0; }
   background: var(--card-2);
   border-radius: 18px 18px 0 0;
   overflow: hidden;
+  position: relative;
 }
 .modal-image img { width: 100%; height: 100%; object-fit: cover; }
 .modal-body { padding: 20px; }

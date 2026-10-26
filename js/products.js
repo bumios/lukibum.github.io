@@ -72,7 +72,7 @@ function normalizeText(s) {
 
 function productCard(p, i = 0) {
   return `
-  <article class="product-card" style="--d:${(i % 8) * 0.06}s">
+  <article class="product-card${p.onSale ? " on-sale" : ""}" style="--d:${(i % 8) * 0.06}s">
     <div class="product-image" data-detail="${p.id}">
       ${p.onSale ? `<span class="sale-badge">GIÁ SỐC</span>` : ""}
       <img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy">
@@ -88,6 +88,29 @@ function productCard(p, i = 0) {
         <button class="btn btn-ghost" data-detail="${p.id}">Chi tiết</button>
         <button class="btn btn-primary" data-add="${p.id}">Thêm vào đơn</button>
       </div>
+    </div>
+  </article>`;
+}
+
+// Card ngang gọn cho section "Siêu giảm giá dọn kho"
+// (ít item vẫn đẹp, thêm item thì xếp chồng)
+function saleCard(p, i = 0) {
+  return `
+  <article class="sale-card" style="--d:${(i % 8) * 0.06}s">
+    <div class="sale-image" data-detail="${p.id}">
+      <span class="sale-badge">GIÁ SỐC</span>
+      <img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy">
+    </div>
+    <div class="sale-info">
+      <h3 class="product-name" data-detail="${p.id}">${esc(p.name)}</h3>
+      <div class="product-cat">${esc(categoryName(p.category))}</div>
+      <div class="price-row">
+        <span class="price-now">${cardPriceLabel(p)}</span>
+        ${shopeeMinPrice(p) > minPrice(p) ? `<span class="price-old">${formatMoney(shopeeMinPrice(p))}</span>` : ""}
+      </div>
+    </div>
+    <div class="sale-action">
+      <button class="btn btn-primary" data-add="${p.id}">Thêm vào đơn</button>
     </div>
   </article>`;
 }
@@ -131,8 +154,10 @@ async function renderHome() {
 
   const feat = $("#featured-grid");
   if (feat) {
-    const featured = data.products.slice(0, 4);
-    feat.innerHTML = featured.map((p, i) => productCard(p, i)).join("");
+    // Sản phẩm có cờ featured (trong products.json); không có thì lấy 4 đầu
+    const featured = data.products.filter((p) => p.featured);
+    const list = featured.length ? featured : data.products.slice(0, 4);
+    feat.innerHTML = list.map((p, i) => productCard(p, i)).join("");
     wireProductGrid(feat);
   }
 
@@ -141,7 +166,7 @@ async function renderHome() {
   if (saleGrid) {
     const sale = data.products.filter((p) => p.onSale);
     if (sale.length) {
-      saleGrid.innerHTML = sale.map((p, i) => productCard(p, i)).join("");
+      saleGrid.innerHTML = sale.map((p, i) => saleCard(p, i)).join("");
       wireProductGrid(saleGrid);
       $("#sale-section").hidden = false;
     }
@@ -257,7 +282,7 @@ function openProductModal(id) {
   const variants = sortVariations(p.variations);
   overlay.innerHTML = `
     <div class="modal">
-      <div class="modal-image"><img id="modal-img" src="${esc(p.image)}" alt="${esc(p.name)}"></div>
+      <div class="modal-image">${p.onSale ? `<span class="sale-badge">GIÁ SỐC</span>` : ""}<img id="modal-img" src="${esc(p.image)}" alt="${esc(p.name)}"></div>
       <div class="modal-body">
         <button class="modal-close" id="modal-close" aria-label="Đóng">${icon("x")}</button>
         <h2>${esc(p.name)}</h2>
